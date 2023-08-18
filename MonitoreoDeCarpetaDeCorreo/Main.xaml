@@ -480,7 +480,7 @@
                               <av:PointCollection x:Key="ConnectorLocation">1050,656 1050,694</av:PointCollection>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Registrar mensaje - No hay correos para ser procesados" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="LogMessage_12">
+                          <ui:LogMessage DisplayName="Registrar mensaje - No hay correos para ser procesados" sap:VirtualizedContainerService.HintSize="334,141" sap2010:WorkflowViewState.IdRef="LogMessage_12">
                             <ui:LogMessage.Level>
                               <InArgument x:TypeArguments="ui:LogLevel">
                                 <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">UiPath.Core.Activities.LogLevel.Trace</CSharpValue>
@@ -488,7 +488,7 @@
                             </ui:LogMessage.Level>
                             <ui:LogMessage.Message>
                               <InArgument x:TypeArguments="x:Object">
-                                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">"No ha correos para ser procesados en la ruta: " + Activo_Ruta_de_correos_entrada</CSharpValue>
+                                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_51">"No hay correos para ser procesados en la ruta: " + Activo_Ruta_de_correos_entrada</CSharpValue>
                               </InArgument>
                             </ui:LogMessage.Message>
                           </ui:LogMessage>
