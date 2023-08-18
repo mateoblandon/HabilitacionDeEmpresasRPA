@@ -12,6 +12,12 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "Lista_de_correos&Flowchart_1",
+        "Activo_Ruta_de_correos_entrada&Flowchart_1",
+        "Activo_Servidor_IMAP&Flowchart_1",
+        "Activo_Puerto_IMAP&Flowchart_1",
+        "Activo_Correo_NumRot&Flowchart_1",
+        "Activo_Contrasena_correo_NumRot&Flowchart_1",
         "Fecha_y_hora_de_ejecucion&Flowchart_1"
       ],
       "ArgumentsSectionElementsOrder": [],

@@ -150,7 +150,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_1">
+            <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_1">
               <Assign.To>
                 <OutArgument x:TypeArguments="s:DateTime">
                   <CSharpReference x:TypeArguments="s:DateTime" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">Fecha_y_hora_de_ejecucion</CSharpReference>
