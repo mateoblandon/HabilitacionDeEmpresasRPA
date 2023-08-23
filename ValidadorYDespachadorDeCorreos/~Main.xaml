@@ -102,6 +102,7 @@
       <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
       <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Flowchart DisplayName="Diagrama de flujo" sap:VirtualizedContainerService.HintSize="1621,2222" sap2010:WorkflowViewState.IdRef="Flowchart_1">
@@ -529,7 +530,7 @@
                                   <av:PointCollection x:Key="ConnectorLocation">790,960.5 790,996.5</av:PointCollection>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence DisplayName="Validar activos" sap:VirtualizedContainerService.HintSize="572,2660" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                              <Sequence DisplayName="Validar activos" sap:VirtualizedContainerService.HintSize="200,81" sap2010:WorkflowViewState.IdRef="Sequence_16">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -706,12 +707,8 @@
                                             <CSharpValue x:TypeArguments="scg:Dictionary(x:String, x:Boolean)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_83">BooleanDictionary_Activos_validos</CSharpValue>
                                           </InArgument>
                                         </InvokeMethod.TargetObject>
-                                        <InArgument x:TypeArguments="x:String">
-                                          <Literal x:TypeArguments="x:String">Activo_Separador_para_las_listas</Literal>
-                                        </InArgument>
-                                        <InArgument x:TypeArguments="x:Boolean">
-                                          <Literal x:TypeArguments="x:Boolean" />
-                                        </InArgument>
+                                        <InArgument x:TypeArguments="x:String">Activo_Separador_para_las_listas</InArgument>
+                                        <InArgument x:TypeArguments="x:Boolean">False</InArgument>
                                       </InvokeMethod>
                                       <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Bandeja de mensajes" sap:VirtualizedContainerService.HintSize="434,85" sap2010:WorkflowViewState.IdRef="MessageBox_2">
                                         <ui:MessageBox.Text>
@@ -1078,7 +1075,7 @@
     <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">960,989.5</av:Point>
+          <av:Point x:Key="ShapeLocation">950,999.5</av:Point>
           <av:Size x:Key="ShapeSize">200,81</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
