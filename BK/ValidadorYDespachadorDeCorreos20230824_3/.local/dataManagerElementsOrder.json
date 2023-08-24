@@ -12,11 +12,6 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "Activo_Lista_de_correos_de_copia&Flowchart_1",
-        "Activo_Respuesta_cuando_hay_mas_de_1_adjunto_csv&Flowchart_1",
-        "Activo_Respuesta_cuando_no_hay_adjuntos_csv&Flowchart_1",
-        "Activo_Servidor_SMTP&Flowchart_1",
-        "Activo_Puerto_SMTP&Flowchart_1",
         "Cola_en_transaccion&Flowchart_1",
         "Cola_nula&Flowchart_1",
         "Activo_Contrasena_correo_NumRot&Flowchart_1",

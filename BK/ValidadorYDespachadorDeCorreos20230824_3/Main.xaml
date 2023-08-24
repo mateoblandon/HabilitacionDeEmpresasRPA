@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1614,2287" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:sc1="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1614,2287" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -40,7 +40,6 @@
       <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
       <x:String>System.ComponentModel</x:String>
       <x:String>System.Net.Mime</x:String>
-      <x:String>UiPath.Mail.SMTP.Activities</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -130,11 +129,6 @@
       <Variable x:TypeArguments="x:String" Name="Activo_Extension_de_adjunto" />
       <Variable x:TypeArguments="x:Int32" Default="0" Name="Contador_de_adjuntos_con_extension_csv" />
       <Variable x:TypeArguments="x:Boolean" Name="Adjunto_valido" />
-      <Variable x:TypeArguments="x:Int32" Name="Activo_Puerto_SMTP" />
-      <Variable x:TypeArguments="x:String" Name="Activo_Servidor_SMTP" />
-      <Variable x:TypeArguments="x:String" Name="Activo_Respuesta_cuando_no_hay_adjuntos_csv" />
-      <Variable x:TypeArguments="x:String" Name="Activo_Respuesta_cuando_hay_mas_de_1_adjunto_csv" />
-      <Variable x:TypeArguments="x:String" Name="Activo_Lista_de_correos_de_copia" />
     </Flowchart.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -148,9 +142,9 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID33</x:Reference>
+      <x:Reference>__ReferenceID32</x:Reference>
     </Flowchart.StartNode>
-    <FlowStep x:Name="__ReferenceID33">
+    <FlowStep x:Name="__ReferenceID32">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">690,124</av:Point>
@@ -171,7 +165,7 @@
         </ui:LogMessage.Message>
       </ui:LogMessage>
       <FlowStep.Next>
-        <FlowStep x:Name="__ReferenceID11">
+        <FlowStep x:Name="__ReferenceID10">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">690,219.49999999999997</av:Point>
@@ -214,7 +208,7 @@
             </ui:LogMessage>
           </Sequence>
           <FlowStep.Next>
-            <FlowStep x:Name="__ReferenceID12">
+            <FlowStep x:Name="__ReferenceID11">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">690,349.5</av:Point>
@@ -307,7 +301,7 @@
                 </If>
               </Sequence>
               <FlowStep.Next>
-                <FlowDecision x:Name="__ReferenceID13" DisplayName="¿Cola nula?" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
+                <FlowDecision x:Name="__ReferenceID12" DisplayName="¿Cola nula?" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
                   <FlowDecision.Condition>
                     <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">Cola_nula</CSharpValue>
                   </FlowDecision.Condition>
@@ -320,7 +314,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <FlowDecision.True>
-                    <FlowStep x:Name="__ReferenceID14">
+                    <FlowStep x:Name="__ReferenceID13">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">410,534</av:Point>
@@ -341,7 +335,7 @@
                         </ui:LogMessage.Message>
                       </ui:LogMessage>
                       <FlowStep.Next>
-                        <FlowStep x:Name="__ReferenceID25">
+                        <FlowStep x:Name="__ReferenceID24">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <av:Point x:Key="ShapeLocation">140,534</av:Point>
@@ -354,7 +348,7 @@
                     </FlowStep>
                   </FlowDecision.True>
                   <FlowDecision.False>
-                    <FlowStep x:Name="__ReferenceID15">
+                    <FlowStep x:Name="__ReferenceID14">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">690,674</av:Point>
@@ -375,7 +369,7 @@
                         </ui:LogMessage.Message>
                       </ui:LogMessage>
                       <FlowStep.Next>
-                        <FlowStep x:Name="__ReferenceID16">
+                        <FlowStep x:Name="__ReferenceID15">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <av:Point x:Key="ShapeLocation">690,769.5</av:Point>
@@ -462,44 +456,6 @@
                               <ui:LogMessage.Message>
                                 <InArgument x:TypeArguments="x:Object">
                                   <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">"Se obtuvo Servidor_IMAP: " + Activo_Servidor_IMAP</CSharpValue>
-                                </InArgument>
-                              </ui:LogMessage.Message>
-                            </ui:LogMessage>
-                            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Puerto_SMTP" CacheStrategy="None" DisplayName="Obtener activo" FolderPath="HabilitacionDeEmpresasRPA" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="GetRobotAsset_10">
-                              <ui:GetRobotAsset.Value>
-                                <OutArgument x:TypeArguments="x:Int32">
-                                  <CSharpReference x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpReference`1_46">Activo_Puerto_SMTP</CSharpReference>
-                                </OutArgument>
-                              </ui:GetRobotAsset.Value>
-                            </ui:GetRobotAsset>
-                            <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_69">
-                              <ui:LogMessage.Level>
-                                <InArgument x:TypeArguments="ui:LogLevel">
-                                  <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_237">UiPath.Core.Activities.LogLevel.Trace</CSharpValue>
-                                </InArgument>
-                              </ui:LogMessage.Level>
-                              <ui:LogMessage.Message>
-                                <InArgument x:TypeArguments="x:Object">
-                                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_238">"Se obtuvo Puerto_SMTP: " + Activo_Puerto_SMTP</CSharpValue>
-                                </InArgument>
-                              </ui:LogMessage.Message>
-                            </ui:LogMessage>
-                            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Servidor_SMTP" CacheStrategy="None" DisplayName="Obtener activo" FolderPath="HabilitacionDeEmpresasRPA" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="GetRobotAsset_11">
-                              <ui:GetRobotAsset.Value>
-                                <OutArgument x:TypeArguments="x:String">
-                                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_47">Activo_Servidor_SMTP</CSharpReference>
-                                </OutArgument>
-                              </ui:GetRobotAsset.Value>
-                            </ui:GetRobotAsset>
-                            <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_72">
-                              <ui:LogMessage.Level>
-                                <InArgument x:TypeArguments="ui:LogLevel">
-                                  <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_239">UiPath.Core.Activities.LogLevel.Trace</CSharpValue>
-                                </InArgument>
-                              </ui:LogMessage.Level>
-                              <ui:LogMessage.Message>
-                                <InArgument x:TypeArguments="x:Object">
-                                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_240">"Se obtuvo Servidor_SMTP: " + Activo_Servidor_SMTP</CSharpValue>
                                 </InArgument>
                               </ui:LogMessage.Message>
                             </ui:LogMessage>
@@ -598,63 +554,6 @@
                                 </InArgument>
                               </ui:LogMessage.Message>
                             </ui:LogMessage>
-                            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Respuesta_cuando_no_hay_adjuntos_csv" CacheStrategy="None" DisplayName="Obtener activo" FolderPath="HabilitacionDeEmpresasRPA" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="GetRobotAsset_12">
-                              <ui:GetRobotAsset.Value>
-                                <OutArgument x:TypeArguments="x:String">
-                                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_48">Activo_Respuesta_cuando_no_hay_adjuntos_csv</CSharpReference>
-                                </OutArgument>
-                              </ui:GetRobotAsset.Value>
-                            </ui:GetRobotAsset>
-                            <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_73">
-                              <ui:LogMessage.Level>
-                                <InArgument x:TypeArguments="ui:LogLevel">
-                                  <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_253">UiPath.Core.Activities.LogLevel.Trace</CSharpValue>
-                                </InArgument>
-                              </ui:LogMessage.Level>
-                              <ui:LogMessage.Message>
-                                <InArgument x:TypeArguments="x:Object">
-                                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_254">"Se obtuvo Respuesta_cuando_no_hay_adjuntos_csv: " + Activo_Respuesta_cuando_no_hay_adjuntos_csv</CSharpValue>
-                                </InArgument>
-                              </ui:LogMessage.Message>
-                            </ui:LogMessage>
-                            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Respuesta_cuando_hay_mas_de_1_adjunto_csv" CacheStrategy="None" DisplayName="Obtener activo" FolderPath="HabilitacionDeEmpresasRPA" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="GetRobotAsset_13">
-                              <ui:GetRobotAsset.Value>
-                                <OutArgument x:TypeArguments="x:String">
-                                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_49">Activo_Respuesta_cuando_hay_mas_de_1_adjunto_csv</CSharpReference>
-                                </OutArgument>
-                              </ui:GetRobotAsset.Value>
-                            </ui:GetRobotAsset>
-                            <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_75">
-                              <ui:LogMessage.Level>
-                                <InArgument x:TypeArguments="ui:LogLevel">
-                                  <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_259">UiPath.Core.Activities.LogLevel.Trace</CSharpValue>
-                                </InArgument>
-                              </ui:LogMessage.Level>
-                              <ui:LogMessage.Message>
-                                <InArgument x:TypeArguments="x:Object">
-                                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_260">"Se obtuvo Respuesta_cuando_hay_mas_de_1_adjunto_csv: " + Activo_Respuesta_cuando_hay_mas_de_1_adjunto_csv</CSharpValue>
-                                </InArgument>
-                              </ui:LogMessage.Message>
-                            </ui:LogMessage>
-                            <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Lista_de_correos_de_copia" CacheStrategy="None" DisplayName="Obtener activo" FolderPath="HabilitacionDeEmpresasRPA" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="GetRobotAsset_14">
-                              <ui:GetRobotAsset.Value>
-                                <OutArgument x:TypeArguments="x:String">
-                                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_50">Activo_Lista_de_correos_de_copia</CSharpReference>
-                                </OutArgument>
-                              </ui:GetRobotAsset.Value>
-                            </ui:GetRobotAsset>
-                            <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_77">
-                              <ui:LogMessage.Level>
-                                <InArgument x:TypeArguments="ui:LogLevel">
-                                  <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_272">UiPath.Core.Activities.LogLevel.Trace</CSharpValue>
-                                </InArgument>
-                              </ui:LogMessage.Level>
-                              <ui:LogMessage.Message>
-                                <InArgument x:TypeArguments="x:Object">
-                                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_273">"Se obtuvo Lista_de_correos_de_copia: " + Activo_Lista_de_correos_de_copia</CSharpValue>
-                                </InArgument>
-                              </ui:LogMessage.Message>
-                            </ui:LogMessage>
                             <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_14">
                               <ui:LogMessage.Level>
                                 <InArgument x:TypeArguments="ui:LogLevel">
@@ -669,7 +568,7 @@
                             </ui:LogMessage>
                           </Sequence>
                           <FlowStep.Next>
-                            <FlowStep x:Name="__ReferenceID24">
+                            <FlowStep x:Name="__ReferenceID23">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <av:Point x:Key="ShapeLocation">690,879.5</av:Point>
@@ -804,7 +703,7 @@
                                 </ui:LogMessage>
                               </Sequence>
                               <FlowStep.Next>
-                                <FlowDecision x:Name="__ReferenceID27" DisplayName="¿Activos válidos?" sap:VirtualizedContainerService.HintSize="95,87" sap2010:WorkflowViewState.IdRef="FlowDecision_4">
+                                <FlowDecision x:Name="__ReferenceID26" DisplayName="¿Activos válidos?" sap:VirtualizedContainerService.HintSize="95,87" sap2010:WorkflowViewState.IdRef="FlowDecision_4">
                                   <FlowDecision.Condition>
                                     <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_110">Activos_validos</CSharpValue>
                                   </FlowDecision.Condition>
@@ -817,7 +716,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <FlowDecision.True>
-                                    <FlowStep x:Name="__ReferenceID30">
+                                    <FlowStep x:Name="__ReferenceID29">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">680,1164</av:Point>
@@ -838,7 +737,7 @@
                                         </ui:LogMessage.Message>
                                       </ui:LogMessage>
                                       <FlowStep.Next>
-                                        <FlowStep x:Name="__ReferenceID31">
+                                        <FlowStep x:Name="__ReferenceID30">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <av:Point x:Key="ShapeLocation">680,1269.5</av:Point>
@@ -923,7 +822,7 @@
                                             </ui:ForEach>
                                           </Sequence>
                                           <FlowStep.Next>
-                                            <FlowStep x:Name="__ReferenceID17">
+                                            <FlowStep x:Name="__ReferenceID16">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <av:Point x:Key="ShapeLocation">680,1439.5</av:Point>
@@ -983,7 +882,7 @@
                                                 </ui:LogMessage>
                                               </Sequence>
                                               <FlowStep.Next>
-                                                <FlowDecision x:Name="__ReferenceID18" DisplayName="¿Correos en la entrada?" sap:VirtualizedContainerService.HintSize="128,87" sap2010:WorkflowViewState.IdRef="FlowDecision_3">
+                                                <FlowDecision x:Name="__ReferenceID17" DisplayName="¿Correos en la entrada?" sap:VirtualizedContainerService.HintSize="128,87" sap2010:WorkflowViewState.IdRef="FlowDecision_3">
                                                   <FlowDecision.Condition>
                                                     <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_50">Lista_de_correos.Any()</CSharpValue>
                                                   </FlowDecision.Condition>
@@ -996,7 +895,7 @@
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                   <FlowDecision.True>
-                                                    <FlowStep x:Name="__ReferenceID22">
+                                                    <FlowStep x:Name="__ReferenceID21">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                           <av:Point x:Key="ShapeLocation">670,1834</av:Point>
@@ -1017,32 +916,32 @@
                                                         </ui:LogMessage.Message>
                                                       </ui:LogMessage>
                                                       <FlowStep.Next>
-                                                        <FlowStep x:Name="__ReferenceID23">
+                                                        <FlowStep x:Name="__ReferenceID22">
                                                           <sap:WorkflowViewStateService.ViewState>
                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                               <av:Point x:Key="ShapeLocation">670,1929.5</av:Point>
                                                               <av:Size x:Key="ShapeSize">200,81</av:Size>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
-                                                          <Sequence DisplayName="Validar correos" sap:VirtualizedContainerService.HintSize="1052,1530" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                                          <Sequence DisplayName="Validar correos" sap:VirtualizedContainerService.HintSize="1040,1530" sap2010:WorkflowViewState.IdRef="Sequence_9">
                                                             <sap:WorkflowViewStateService.ViewState>
                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                               </scg:Dictionary>
                                                             </sap:WorkflowViewStateService.ViewState>
-                                                            <ui:ForEach x:TypeArguments="snm:MailMessage" CurrentIndex="{x:Null}" DisplayName="Para cada" sap:VirtualizedContainerService.HintSize="990,1419" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
+                                                            <ui:ForEach x:TypeArguments="snm:MailMessage" CurrentIndex="{x:Null}" DisplayName="Para cada" sap:VirtualizedContainerService.HintSize="978,1419" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
                                                               <ui:ForEach.Body>
                                                                 <ActivityAction x:TypeArguments="snm:MailMessage">
                                                                   <ActivityAction.Argument>
                                                                     <DelegateInArgument x:TypeArguments="snm:MailMessage" Name="correo" />
                                                                   </ActivityAction.Argument>
-                                                                  <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="956,1233" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                                                  <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="944,1233" sap2010:WorkflowViewState.IdRef="Sequence_11">
                                                                     <sap:WorkflowViewStateService.ViewState>
                                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                       </scg:Dictionary>
                                                                     </sap:WorkflowViewStateService.ViewState>
-                                                                    <Flowchart DisplayName="Validacion correos - Diagrama de flujo" sap:VirtualizedContainerService.HintSize="914,1145" sap2010:WorkflowViewState.IdRef="Flowchart_2">
+                                                                    <Flowchart DisplayName="Validacion correos - Diagrama de flujo" sap:VirtualizedContainerService.HintSize="902,1145" sap2010:WorkflowViewState.IdRef="Flowchart_2">
                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1050,12 +949,12 @@
                                                                           <av:Size x:Key="ShapeSize">60,75</av:Size>
                                                                           <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,114</av:PointCollection>
                                                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                          <x:Double x:Key="Width">880</x:Double>
+                                                                          <x:Double x:Key="Width">868</x:Double>
                                                                           <x:Double x:Key="Height">1107.5</x:Double>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
                                                                       <Flowchart.StartNode>
-                                                                        <x:Reference>__ReferenceID10</x:Reference>
+                                                                        <x:Reference>__ReferenceID9</x:Reference>
                                                                       </Flowchart.StartNode>
                                                                       <FlowStep x:Name="__ReferenceID0">
                                                                         <sap:WorkflowViewStateService.ViewState>
@@ -1071,32 +970,32 @@
                                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="Para cada" sap:VirtualizedContainerService.HintSize="586,626" sap2010:WorkflowViewState.IdRef="ForEach`1_5">
+                                                                          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="Para cada" sap:VirtualizedContainerService.HintSize="586,625" sap2010:WorkflowViewState.IdRef="ForEach`1_5">
                                                                             <ui:ForEach.Body>
                                                                               <ActivityAction x:TypeArguments="x:String">
                                                                                 <ActivityAction.Argument>
                                                                                   <DelegateInArgument x:TypeArguments="x:String" Name="palabraDeAsunto" />
                                                                                 </ActivityAction.Argument>
-                                                                                <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="552,440" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                                                                                <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="552,439" sap2010:WorkflowViewState.IdRef="Sequence_27">
                                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                     </scg:Dictionary>
                                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                                  <If DisplayName="Si" sap:VirtualizedContainerService.HintSize="510,352" sap2010:WorkflowViewState.IdRef="If_7">
+                                                                                  <If DisplayName="Si" sap:VirtualizedContainerService.HintSize="510,351" sap2010:WorkflowViewState.IdRef="If_7">
                                                                                     <If.Condition>
                                                                                       <InArgument x:TypeArguments="x:Boolean">
                                                                                         <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_140">correo.Subject.ToString().ToUpper().Contains(palabraDeAsunto.ToUpper())</CSharpValue>
                                                                                       </InArgument>
                                                                                     </If.Condition>
                                                                                     <If.Then>
-                                                                                      <Sequence sap:VirtualizedContainerService.HintSize="476,170" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                                                                                      <Sequence sap:VirtualizedContainerService.HintSize="476,169" sap2010:WorkflowViewState.IdRef="Sequence_28">
                                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                           </scg:Dictionary>
                                                                                         </sap:WorkflowViewStateService.ViewState>
-                                                                                        <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_17">
+                                                                                        <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_17">
                                                                                           <Assign.To>
                                                                                             <OutArgument x:TypeArguments="x:Int32">
                                                                                               <CSharpReference x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpReference`1_31">Contador_palabras_del_asunto</CSharpReference>
@@ -1129,14 +1028,14 @@
                                                                               </InArgument>
                                                                             </ui:ForEach.Values>
                                                                           </ui:ForEach>
-                                                                          <If DisplayName="Si" sap:VirtualizedContainerService.HintSize="586,884" sap2010:WorkflowViewState.IdRef="If_8">
+                                                                          <If DisplayName="Si" sap:VirtualizedContainerService.HintSize="586,882" sap2010:WorkflowViewState.IdRef="If_8">
                                                                             <If.Condition>
                                                                               <InArgument x:TypeArguments="x:Boolean">
                                                                                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_131">Contador_palabras_del_asunto == StringArray_Lista_de_palabras_que_debe_contener_el_asunto_del_correo.Count()</CSharpValue>
                                                                               </InArgument>
                                                                             </If.Condition>
                                                                             <If.Then>
-                                                                              <Sequence sap:VirtualizedContainerService.HintSize="476,351" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                                                              <Sequence sap:VirtualizedContainerService.HintSize="476,350" sap2010:WorkflowViewState.IdRef="Sequence_30">
                                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1154,7 +1053,7 @@
                                                                                     </InArgument>
                                                                                   </ui:LogMessage.Message>
                                                                                 </ui:LogMessage>
-                                                                                <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_18">
+                                                                                <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_18">
                                                                                   <Assign.To>
                                                                                     <OutArgument x:TypeArguments="x:Boolean">
                                                                                       <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_32">Asunto_de_correo_valido</CSharpReference>
@@ -1167,7 +1066,7 @@
                                                                               </Sequence>
                                                                             </If.Then>
                                                                             <If.Else>
-                                                                              <Sequence sap:VirtualizedContainerService.HintSize="476,351" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                                                                              <Sequence sap:VirtualizedContainerService.HintSize="476,350" sap2010:WorkflowViewState.IdRef="Sequence_31">
                                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1185,7 +1084,7 @@
                                                                                     </InArgument>
                                                                                   </ui:LogMessage.Message>
                                                                                 </ui:LogMessage>
-                                                                                <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_19">
+                                                                                <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_19">
                                                                                   <Assign.To>
                                                                                     <OutArgument x:TypeArguments="x:Boolean">
                                                                                       <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_33">Asunto_de_correo_valido</CSharpReference>
@@ -1531,294 +1430,15 @@
                                                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                     <av:Point x:Key="ShapeLocation">440,929.5</av:Point>
                                                                                                     <av:Size x:Key="ShapeSize">200,81</av:Size>
-                                                                                                    <av:PointCollection x:Key="ConnectorLocation">640,970 680,970</av:PointCollection>
                                                                                                   </scg:Dictionary>
                                                                                                 </sap:WorkflowViewStateService.ViewState>
-                                                                                                <Sequence DisplayName="Registrar y enviar logs según la cantidad de adjuntos .csv" sap:VirtualizedContainerService.HintSize="625,1893" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                                                                                                <Sequence DisplayName="Registrar logs según la cantidad de adjuntos .csv" sap:VirtualizedContainerService.HintSize="450,103" sap2010:WorkflowViewState.IdRef="Sequence_44">
                                                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                                     </scg:Dictionary>
                                                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                                                  <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="563,1782" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
-                                                                                                    <ui:IfElseIf.ConditionBlocks>
-                                                                                                      <sc1:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                                                                        <ui:IfElseIfBlock BlockType="If">
-                                                                                                          <ui:IfElseIfBlock.Condition>
-                                                                                                            <InArgument x:TypeArguments="x:Boolean">
-                                                                                                              <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_220">Contador_de_adjuntos_con_extension_csv == 0</CSharpValue>
-                                                                                                            </InArgument>
-                                                                                                          </ui:IfElseIfBlock.Condition>
-                                                                                                          <ui:IfElseIfBlock.Then>
-                                                                                                            <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="512,730" sap2010:WorkflowViewState.IdRef="Sequence_47">
-                                                                                                              <sap:WorkflowViewStateService.ViewState>
-                                                                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                                                                </scg:Dictionary>
-                                                                                                              </sap:WorkflowViewStateService.ViewState>
-                                                                                                              <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="450,141" sap2010:WorkflowViewState.IdRef="LogMessage_66">
-                                                                                                                <ui:LogMessage.Level>
-                                                                                                                  <InArgument x:TypeArguments="ui:LogLevel">
-                                                                                                                    <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_221">UiPath.Core.Activities.LogLevel.Trace</CSharpValue>
-                                                                                                                  </InArgument>
-                                                                                                                </ui:LogMessage.Level>
-                                                                                                                <ui:LogMessage.Message>
-                                                                                                                  <InArgument x:TypeArguments="x:Object">
-                                                                                                                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_222">"No se encontró archivo con extensión " + Activo_Extension_de_adjunto</CSharpValue>
-                                                                                                                  </InArgument>
-                                                                                                                </ui:LogMessage.Message>
-                                                                                                              </ui:LogMessage>
-                                                                                                              <Sequence DisplayName="Enviar correo con log" sap:VirtualizedContainerService.HintSize="450,438" sap2010:WorkflowViewState.IdRef="Sequence_52">
-                                                                                                                <sap:WorkflowViewStateService.ViewState>
-                                                                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                                                                  </scg:Dictionary>
-                                                                                                                </sap:WorkflowViewStateService.ViewState>
-                                                                                                                <ui:SendMail Bcc="{x:Null}" ContinueOnError="{x:Null}" From="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" DisplayName="Enviar mensaje de correo SMTP" EnableSSL="True" sap:VirtualizedContainerService.HintSize="388,146" sap2010:WorkflowViewState.IdRef="SendMail_3" IgnoreCRL="False" IsBodyHtml="False" SecureConnection="Auto">
-                                                                                                                  <ui:SendMail.Body>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_261">Activo_Respuesta_cuando_no_hay_adjuntos_csv + Environment.NewLine + "Fecha de recepción del mensaje recibido: " + correo.Date</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Body>
-                                                                                                                  <ui:SendMail.Cc>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_274">Activo_Lista_de_correos_de_copia</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Cc>
-                                                                                                                  <ui:SendMail.Email>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_246">Activo_Correo_NumRot</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Email>
-                                                                                                                  <ui:SendMail.Files>
-                                                                                                                    <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
-                                                                                                                  </ui:SendMail.Files>
-                                                                                                                  <ui:SendMail.MailMessage>
-                                                                                                                    <InArgument x:TypeArguments="snm:MailMessage">
-                                                                                                                      <CSharpValue x:TypeArguments="snm:MailMessage" sap2010:WorkflowViewState.IdRef="CSharpValue`1_252">correo</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.MailMessage>
-                                                                                                                  <ui:SendMail.Password>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_247">Activo_Contrasena_correo_NumRot</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Password>
-                                                                                                                  <ui:SendMail.Port>
-                                                                                                                    <InArgument x:TypeArguments="x:Int32">
-                                                                                                                      <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_248">Activo_Puerto_SMTP</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Port>
-                                                                                                                  <ui:SendMail.Server>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_249">Activo_Servidor_SMTP</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Server>
-                                                                                                                  <ui:SendMail.Subject>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_251">"Re: " + correo.Subject</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Subject>
-                                                                                                                  <ui:SendMail.To>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_250">correo.From.Address</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.To>
-                                                                                                                </ui:SendMail>
-                                                                                                                <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_74">
-                                                                                                                  <ui:LogMessage.Level>
-                                                                                                                    <InArgument x:TypeArguments="ui:LogLevel">
-                                                                                                                      <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_257">UiPath.Core.Activities.LogLevel.Trace</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:LogMessage.Level>
-                                                                                                                  <ui:LogMessage.Message>
-                                                                                                                    <InArgument x:TypeArguments="x:Object">
-                                                                                                                      <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_258">"Se envió mensaje a: " + correo.From.Address + "\r\n" + "Asunto: " +"Re: " + correo.Subject + "\r\n" + "Cuerpo: " + Activo_Respuesta_cuando_no_hay_adjuntos_csv + Environment.NewLine + "Fecha de recepción del mensaje: " + correo.Date</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:LogMessage.Message>
-                                                                                                                </ui:LogMessage>
-                                                                                                              </Sequence>
-                                                                                                            </Sequence>
-                                                                                                          </ui:IfElseIfBlock.Then>
-                                                                                                        </ui:IfElseIfBlock>
-                                                                                                        <ui:IfElseIfBlock BlockType="ElseIf">
-                                                                                                          <ui:IfElseIfBlock.Condition>
-                                                                                                            <InArgument x:TypeArguments="x:Boolean">
-                                                                                                              <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_223">Contador_de_adjuntos_con_extension_csv &gt; 1</CSharpValue>
-                                                                                                            </InArgument>
-                                                                                                          </ui:IfElseIfBlock.Condition>
-                                                                                                          <ui:IfElseIfBlock.Then>
-                                                                                                            <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="512,730" sap2010:WorkflowViewState.IdRef="Sequence_48">
-                                                                                                              <sap:WorkflowViewStateService.ViewState>
-                                                                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                                                                </scg:Dictionary>
-                                                                                                              </sap:WorkflowViewStateService.ViewState>
-                                                                                                              <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="450,141" sap2010:WorkflowViewState.IdRef="LogMessage_67">
-                                                                                                                <ui:LogMessage.Level>
-                                                                                                                  <InArgument x:TypeArguments="ui:LogLevel">
-                                                                                                                    <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_224">UiPath.Core.Activities.LogLevel.Trace</CSharpValue>
-                                                                                                                  </InArgument>
-                                                                                                                </ui:LogMessage.Level>
-                                                                                                                <ui:LogMessage.Message>
-                                                                                                                  <InArgument x:TypeArguments="x:Object">
-                                                                                                                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_225">"Hay más de un archivo con extensión " + Activo_Extension_de_adjunto + " - El proceso sólo admiten 1 archivo " + Activo_Extension_de_adjunto</CSharpValue>
-                                                                                                                  </InArgument>
-                                                                                                                </ui:LogMessage.Message>
-                                                                                                              </ui:LogMessage>
-                                                                                                              <Sequence DisplayName="Enviar correo con log" sap:VirtualizedContainerService.HintSize="450,438" sap2010:WorkflowViewState.IdRef="Sequence_53">
-                                                                                                                <sap:WorkflowViewStateService.ViewState>
-                                                                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                                                                  </scg:Dictionary>
-                                                                                                                </sap:WorkflowViewStateService.ViewState>
-                                                                                                                <ui:SendMail Bcc="{x:Null}" ContinueOnError="{x:Null}" From="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" DisplayName="Enviar mensaje de correo SMTP" EnableSSL="True" sap:VirtualizedContainerService.HintSize="388,146" sap2010:WorkflowViewState.IdRef="SendMail_4" IgnoreCRL="False" IsBodyHtml="False" SecureConnection="Auto">
-                                                                                                                  <ui:SendMail.Body>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_268">Activo_Respuesta_cuando_hay_mas_de_1_adjunto_csv + Environment.NewLine + "Fecha de recepción del mensaje recibido: " + correo.Date</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Body>
-                                                                                                                  <ui:SendMail.Cc>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_275">Activo_Lista_de_correos_de_copia</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Cc>
-                                                                                                                  <ui:SendMail.Email>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_262">Activo_Correo_NumRot</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Email>
-                                                                                                                  <ui:SendMail.Files>
-                                                                                                                    <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
-                                                                                                                  </ui:SendMail.Files>
-                                                                                                                  <ui:SendMail.MailMessage>
-                                                                                                                    <InArgument x:TypeArguments="snm:MailMessage">
-                                                                                                                      <CSharpValue x:TypeArguments="snm:MailMessage" sap2010:WorkflowViewState.IdRef="CSharpValue`1_269">correo</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.MailMessage>
-                                                                                                                  <ui:SendMail.Password>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_263">Activo_Contrasena_correo_NumRot</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Password>
-                                                                                                                  <ui:SendMail.Port>
-                                                                                                                    <InArgument x:TypeArguments="x:Int32">
-                                                                                                                      <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_264">Activo_Puerto_SMTP</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Port>
-                                                                                                                  <ui:SendMail.Server>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_265">Activo_Servidor_SMTP</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Server>
-                                                                                                                  <ui:SendMail.Subject>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_267">"Re: " + correo.Subject</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.Subject>
-                                                                                                                  <ui:SendMail.To>
-                                                                                                                    <InArgument x:TypeArguments="x:String">
-                                                                                                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_266">correo.From.Address</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:SendMail.To>
-                                                                                                                </ui:SendMail>
-                                                                                                                <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_76">
-                                                                                                                  <ui:LogMessage.Level>
-                                                                                                                    <InArgument x:TypeArguments="ui:LogLevel">
-                                                                                                                      <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_270">UiPath.Core.Activities.LogLevel.Trace</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:LogMessage.Level>
-                                                                                                                  <ui:LogMessage.Message>
-                                                                                                                    <InArgument x:TypeArguments="x:Object">
-                                                                                                                      <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_271">"Se envió mensaje a: " + correo.From.Address + "\r\n" + "Asunto: " +"Re: " + correo.Subject + "\r\n" + "Cuerpo: " + Activo_Respuesta_cuando_no_hay_adjuntos_csv + Environment.NewLine + "Fecha de recepción del mensaje: " + correo.Date</CSharpValue>
-                                                                                                                    </InArgument>
-                                                                                                                  </ui:LogMessage.Message>
-                                                                                                                </ui:LogMessage>
-                                                                                                              </Sequence>
-                                                                                                            </Sequence>
-                                                                                                          </ui:IfElseIfBlock.Then>
-                                                                                                        </ui:IfElseIfBlock>
-                                                                                                      </sc1:BindingList>
-                                                                                                    </ui:IfElseIf.ConditionBlocks>
-                                                                                                  </ui:IfElseIf>
                                                                                                 </Sequence>
-                                                                                                <FlowStep.Next>
-                                                                                                  <FlowStep x:Name="__ReferenceID9">
-                                                                                                    <sap:WorkflowViewStateService.ViewState>
-                                                                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                                        <av:Point x:Key="ShapeLocation">680,929.5</av:Point>
-                                                                                                        <av:Size x:Key="ShapeSize">200,81</av:Size>
-                                                                                                      </scg:Dictionary>
-                                                                                                    </sap:WorkflowViewStateService.ViewState>
-                                                                                                    <Sequence DisplayName="Mover correo a carpeta de procesados" sap:VirtualizedContainerService.HintSize="200,81" sap2010:WorkflowViewState.IdRef="Sequence_49">
-                                                                                                      <sap:WorkflowViewStateService.ViewState>
-                                                                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                                                        </scg:Dictionary>
-                                                                                                      </sap:WorkflowViewStateService.ViewState>
-                                                                                                      <ui:MoveIMAPMailMessageToFolder ClientName="{x:Null}" ClientVersion="{x:Null}" SecurePassword="{x:Null}" UseOAuth="{x:Null}" DisplayName="Mover mensaje de correo IMAP" EnableSSL="True" sap:VirtualizedContainerService.HintSize="434,90" sap2010:WorkflowViewState.IdRef="MoveIMAPMailMessageToFolder_4" IgnoreCRL="False" SecureConnection="Auto">
-                                                                                                        <ui:MoveIMAPMailMessageToFolder.Email>
-                                                                                                          <InArgument x:TypeArguments="x:String">
-                                                                                                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_226">Activo_Correo_NumRot</CSharpValue>
-                                                                                                          </InArgument>
-                                                                                                        </ui:MoveIMAPMailMessageToFolder.Email>
-                                                                                                        <ui:MoveIMAPMailMessageToFolder.FromFolder>
-                                                                                                          <InArgument x:TypeArguments="x:String">
-                                                                                                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_227">Activo_Ruta_de_correos_entrada</CSharpValue>
-                                                                                                          </InArgument>
-                                                                                                        </ui:MoveIMAPMailMessageToFolder.FromFolder>
-                                                                                                        <ui:MoveIMAPMailMessageToFolder.MailFolder>
-                                                                                                          <InArgument x:TypeArguments="x:String">
-                                                                                                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_228">Activo_Ruta_de_correos_procesados</CSharpValue>
-                                                                                                          </InArgument>
-                                                                                                        </ui:MoveIMAPMailMessageToFolder.MailFolder>
-                                                                                                        <ui:MoveIMAPMailMessageToFolder.MailMessage>
-                                                                                                          <InArgument x:TypeArguments="snm:MailMessage">
-                                                                                                            <CSharpValue x:TypeArguments="snm:MailMessage" sap2010:WorkflowViewState.IdRef="CSharpValue`1_229">correo</CSharpValue>
-                                                                                                          </InArgument>
-                                                                                                        </ui:MoveIMAPMailMessageToFolder.MailMessage>
-                                                                                                        <ui:MoveIMAPMailMessageToFolder.Password>
-                                                                                                          <InArgument x:TypeArguments="x:String">
-                                                                                                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_230">Activo_Contrasena_correo_NumRot</CSharpValue>
-                                                                                                          </InArgument>
-                                                                                                        </ui:MoveIMAPMailMessageToFolder.Password>
-                                                                                                        <ui:MoveIMAPMailMessageToFolder.Port>
-                                                                                                          <InArgument x:TypeArguments="x:Int32">
-                                                                                                            <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_231">Activo_Puerto_IMAP</CSharpValue>
-                                                                                                          </InArgument>
-                                                                                                        </ui:MoveIMAPMailMessageToFolder.Port>
-                                                                                                        <ui:MoveIMAPMailMessageToFolder.Server>
-                                                                                                          <InArgument x:TypeArguments="x:String">
-                                                                                                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_232">Activo_Servidor_IMAP</CSharpValue>
-                                                                                                          </InArgument>
-                                                                                                        </ui:MoveIMAPMailMessageToFolder.Server>
-                                                                                                      </ui:MoveIMAPMailMessageToFolder>
-                                                                                                      <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogMessage_68">
-                                                                                                        <ui:LogMessage.Level>
-                                                                                                          <InArgument x:TypeArguments="ui:LogLevel">
-                                                                                                            <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_233">UiPath.Core.Activities.LogLevel.Trace</CSharpValue>
-                                                                                                          </InArgument>
-                                                                                                        </ui:LogMessage.Level>
-                                                                                                        <ui:LogMessage.Message>
-                                                                                                          <InArgument x:TypeArguments="x:Object">
-                                                                                                            <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_234">"Correo con asunto &lt;" + correo.Subject.ToString() + "&gt; movido desde la ruta " + Activo_Ruta_de_correos_entrada + " a la ruta " + Activo_Ruta_de_correos_procesados</CSharpValue>
-                                                                                                          </InArgument>
-                                                                                                        </ui:LogMessage.Message>
-                                                                                                      </ui:LogMessage>
-                                                                                                      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_27">
-                                                                                                        <Assign.To>
-                                                                                                          <OutArgument x:TypeArguments="x:Int32">
-                                                                                                            <CSharpReference x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpReference`1_45">Contador_correos_para_procesar</CSharpReference>
-                                                                                                          </OutArgument>
-                                                                                                        </Assign.To>
-                                                                                                        <Assign.Value>
-                                                                                                          <InArgument x:TypeArguments="x:Int32">
-                                                                                                            <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_235">Contador_correos_para_procesar +1</CSharpValue>
-                                                                                                          </InArgument>
-                                                                                                        </Assign.Value>
-                                                                                                      </Assign>
-                                                                                                    </Sequence>
-                                                                                                  </FlowStep>
-                                                                                                </FlowStep.Next>
                                                                                               </FlowStep>
                                                                                             </FlowDecision.False>
                                                                                           </FlowDecision>
@@ -1988,7 +1608,7 @@
                                                                           </FlowDecision>
                                                                         </FlowStep.Next>
                                                                       </FlowStep>
-                                                                      <FlowStep x:Name="__ReferenceID10">
+                                                                      <FlowStep x:Name="__ReferenceID9">
                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                             <av:Point x:Key="ShapeLocation">200,114</av:Point>
@@ -2020,7 +1640,6 @@
                                                                       <x:Reference>__ReferenceID6</x:Reference>
                                                                       <x:Reference>__ReferenceID7</x:Reference>
                                                                       <x:Reference>__ReferenceID8</x:Reference>
-                                                                      <x:Reference>__ReferenceID9</x:Reference>
                                                                     </Flowchart>
                                                                   </Sequence>
                                                                 </ActivityAction>
@@ -2037,7 +1656,7 @@
                                                     </FlowStep>
                                                   </FlowDecision.True>
                                                   <FlowDecision.False>
-                                                    <FlowStep x:Name="__ReferenceID20">
+                                                    <FlowStep x:Name="__ReferenceID19">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                           <av:Point x:Key="ShapeLocation">1000,1694</av:Point>
@@ -2058,7 +1677,7 @@
                                                         </ui:LogMessage.Message>
                                                       </ui:LogMessage>
                                                       <FlowStep.Next>
-                                                        <FlowStep x:Name="__ReferenceID21">
+                                                        <FlowStep x:Name="__ReferenceID20">
                                                           <sap:WorkflowViewStateService.ViewState>
                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                               <av:Point x:Key="ShapeLocation">1000,1769.5</av:Point>
@@ -2109,7 +1728,7 @@
                                                             </ui:LogMessage>
                                                           </Sequence>
                                                           <FlowStep.Next>
-                                                            <FlowStep x:Name="__ReferenceID19">
+                                                            <FlowStep x:Name="__ReferenceID18">
                                                               <sap:WorkflowViewStateService.ViewState>
                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                   <av:Point x:Key="ShapeLocation">1000,1884</av:Point>
@@ -2130,7 +1749,7 @@
                                                                 </ui:LogMessage.Message>
                                                               </ui:LogMessage>
                                                               <FlowStep.Next>
-                                                                <FlowStep x:Name="__ReferenceID26">
+                                                                <FlowStep x:Name="__ReferenceID25">
                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                       <av:Point x:Key="ShapeLocation">1000,1974</av:Point>
@@ -2161,7 +1780,7 @@
                                     </FlowStep>
                                   </FlowDecision.True>
                                   <FlowDecision.False>
-                                    <FlowStep x:Name="__ReferenceID28">
+                                    <FlowStep x:Name="__ReferenceID27">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">930,999.5</av:Point>
@@ -2222,7 +1841,7 @@
                                         </ui:ForEach>
                                       </Sequence>
                                       <FlowStep.Next>
-                                        <FlowStep x:Name="__ReferenceID32">
+                                        <FlowStep x:Name="__ReferenceID31">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <av:Point x:Key="ShapeLocation">1160,1014.0000000000001</av:Point>
@@ -2243,7 +1862,7 @@
                                             </ui:LogMessage.Message>
                                           </ui:LogMessage>
                                           <FlowStep.Next>
-                                            <FlowStep x:Name="__ReferenceID29">
+                                            <FlowStep x:Name="__ReferenceID28">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <av:Point x:Key="ShapeLocation">1390,1014.0000000000001</av:Point>
@@ -2272,6 +1891,7 @@
         </FlowStep>
       </FlowStep.Next>
     </FlowStep>
+    <x:Reference>__ReferenceID10</x:Reference>
     <x:Reference>__ReferenceID11</x:Reference>
     <x:Reference>__ReferenceID12</x:Reference>
     <x:Reference>__ReferenceID13</x:Reference>
@@ -2293,6 +1913,5 @@
     <x:Reference>__ReferenceID29</x:Reference>
     <x:Reference>__ReferenceID30</x:Reference>
     <x:Reference>__ReferenceID31</x:Reference>
-    <x:Reference>__ReferenceID32</x:Reference>
   </Flowchart>
 </Activity>
