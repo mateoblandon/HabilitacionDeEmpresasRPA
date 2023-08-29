@@ -12,7 +12,6 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "Activo_Formato_de_fecha_y_hora_para_referencia_de_colas&Flowchart_1",
         "Lista_de_correos&Flowchart_1",
         "Activo_Ruta_de_correos_entrada&Flowchart_1",
         "Activo_Servidor_IMAP&Flowchart_1",
