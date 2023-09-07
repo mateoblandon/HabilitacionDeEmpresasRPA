@@ -1,0 +1,36 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Activo_Formato_de_fecha_y_hora_para_las_respuestas_por_correo&Flowchart_1",
+        "Activo_Ruta_de_carpeta_de_salida_temporal&Flowchart_1",
+        "Activo_Lista_de_correos_de_copia&Flowchart_1",
+        "Activo_Extension_de_adjunto&Flowchart_1",
+        "Activo_Ruta_de_correos_procesados&Flowchart_1",
+        "Activo_Ruta_de_correos_entrada&Flowchart_1",
+        "Activo_Servidor_SMTP&Flowchart_1",
+        "Activo_Puerto_SMTP&Flowchart_1",
+        "Activo_Servidor_IMAP&Flowchart_1",
+        "Activo_Puerto_IMAP&Flowchart_1",
+        "Activo_Correo_NumRot&Flowchart_1",
+        "Activo_Contrasena_correo_NumRot&Flowchart_1",
+        "Cola_nula&Flowchart_1",
+        "Cola_en_transaccion&Flowchart_1",
+        "Fecha_y_hora_de_ejecucion&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

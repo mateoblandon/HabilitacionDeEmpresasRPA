@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1746,2864" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:sc1="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1746,2888" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:sc1="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -152,16 +152,12 @@
       <Variable x:TypeArguments="x:String" Name="Activo_Delimitador_de_CSV" />
       <Variable x:TypeArguments="x:String" Name="Insumo_texto" />
       <Variable x:TypeArguments="x:Boolean" Name="Insumo_texto_contiene_delimitador" />
-      <Variable x:TypeArguments="sd:DataTable" Name="Insumo_Data_Table" />
+      <Variable x:TypeArguments="sd:DataTable" Name="Insumo_data_table" />
       <Variable x:TypeArguments="x:Int32" Name="Activo_Numero_de_columnas_de_insumo" />
-      <Variable x:TypeArguments="x:Boolean" Name="Insumo_Data_Table_numero_de_columnas_correctas" />
+      <Variable x:TypeArguments="x:Boolean" Name="Insumo_data_table_numero_de_columnas_correctas" />
       <Variable x:TypeArguments="x:String" Name="Activo_Respuesta_cuando_el_insumo_no_cumple_con_la_validacion" />
       <Variable x:TypeArguments="x:String" Name="Activo_Formato_de_fecha_y_hora_para_las_respuestas_por_correo" />
-      <Variable x:TypeArguments="x:Int32" Name="Contador_correos_validos">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:Int32" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="Contador_correos_validos" />
       <Variable x:TypeArguments="x:Boolean" Name="Debe_parar" />
       <Variable x:TypeArguments="x:String" Name="Activo_Formato_de_fecha_y_hora_para_referencia_de_colas" />
     </Flowchart.Variables>
@@ -1084,7 +1080,7 @@
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <ui:GetIMAPMailMessages ClientName="{x:Null}" ClientVersion="{x:Null}" FilterExpression="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" DeleteMessages="False" DisplayName="Obtener mensajes de correo IMAP" EnableSSL="True" FilterExpressionCharacterSet="US-ASCII" sap:VirtualizedContainerService.HintSize="388,25" sap2010:WorkflowViewState.IdRef="GetIMAPMailMessages_3" IgnoreCRL="False" MarkAsRead="False" OnlyUnreadMessages="True" OrderByDate="NewestFirst" SecureConnection="Auto" Top="30">
+                                                <ui:GetIMAPMailMessages ClientName="{x:Null}" ClientVersion="{x:Null}" FilterExpression="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" DeleteMessages="False" DisplayName="Obtener mensajes de correo IMAP" EnableSSL="True" FilterExpressionCharacterSet="US-ASCII" sap:VirtualizedContainerService.HintSize="388,25" sap2010:WorkflowViewState.IdRef="GetIMAPMailMessages_3" IgnoreCRL="False" MarkAsRead="False" OnlyUnreadMessages="False" OrderByDate="NewestFirst" SecureConnection="Auto" Top="30">
                                                   <ui:GetIMAPMailMessages.Email>
                                                     <InArgument x:TypeArguments="x:String">
                                                       <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">Activo_Correo_NumRot</CSharpValue>
@@ -1172,7 +1168,7 @@
                                                               <av:PointCollection x:Key="ConnectorLocation">770,2010.5 770,2059.5</av:PointCollection>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
-                                                          <Sequence DisplayName="Validar correos" sap:VirtualizedContainerService.HintSize="200,81" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                                          <Sequence DisplayName="Validar correos" sap:VirtualizedContainerService.HintSize="1338,2901" sap2010:WorkflowViewState.IdRef="Sequence_9">
                                                             <sap:WorkflowViewStateService.ViewState>
                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1926,7 +1922,7 @@
                                                                                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                                                             </scg:Dictionary>
                                                                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                                                                          <ui:SaveMailAttachments Attachments="{x:Null}" DisplayName="Guardar archivos adjuntos" ExcludeInlineAttachments="False" sap:VirtualizedContainerService.HintSize="606,90" sap2010:WorkflowViewState.IdRef="SaveMailAttachments_1" OverwriteExisting="False">
+                                                                                                                          <ui:SaveMailAttachments Attachments="{x:Null}" DisplayName="Guardar archivos adjuntos" ExcludeInlineAttachments="False" sap:VirtualizedContainerService.HintSize="606,92" sap2010:WorkflowViewState.IdRef="SaveMailAttachments_1" OverwriteExisting="False">
                                                                                                                             <ui:SaveMailAttachments.FolderPath>
                                                                                                                               <InArgument x:TypeArguments="x:String">
                                                                                                                                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_392">Activo_Ruta_de_carpeta_de_salida_temporal</CSharpValue>
@@ -1950,7 +1946,7 @@
                                                                                                                               </InArgument>
                                                                                                                             </ui:LogMessage.Message>
                                                                                                                           </ui:LogMessage>
-                                                                                                                          <ui:ForEachFileX DisplayName="Para cada archivo en la carpeta" sap:VirtualizedContainerService.HintSize="606,901" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                                                                                                                          <ui:ForEachFileX DisplayName="Para cada archivo en la carpeta" sap:VirtualizedContainerService.HintSize="606,1131" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
                                                                                                                             <ui:ForEachFileX.Body>
                                                                                                                               <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                                                                                                                                 <ActivityAction.Argument1>
@@ -1959,26 +1955,26 @@
                                                                                                                                 <ActivityAction.Argument2>
                                                                                                                                   <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                                                                                                                                 </ActivityAction.Argument2>
-                                                                                                                                <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="572,643" sap2010:WorkflowViewState.IdRef="Sequence_76">
+                                                                                                                                <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="572,873" sap2010:WorkflowViewState.IdRef="Sequence_76">
                                                                                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                                                                     </scg:Dictionary>
                                                                                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                                                                                  <If DisplayName="Si" sap:VirtualizedContainerService.HintSize="510,532" sap2010:WorkflowViewState.IdRef="If_15">
+                                                                                                                                  <If DisplayName="Si" sap:VirtualizedContainerService.HintSize="510,762" sap2010:WorkflowViewState.IdRef="If_15">
                                                                                                                                     <If.Condition>
                                                                                                                                       <InArgument x:TypeArguments="x:Boolean">
                                                                                                                                         <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_398">CurrentFile.FullName.ToUpper().Contains(Activo_Extension_de_adjunto.ToUpper())</CSharpValue>
                                                                                                                                       </InArgument>
                                                                                                                                     </If.Condition>
                                                                                                                                     <If.Then>
-                                                                                                                                      <Sequence sap:VirtualizedContainerService.HintSize="476,350" sap2010:WorkflowViewState.IdRef="Sequence_74">
+                                                                                                                                      <Sequence sap:VirtualizedContainerService.HintSize="476,351" sap2010:WorkflowViewState.IdRef="Sequence_74">
                                                                                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                                                                           </scg:Dictionary>
                                                                                                                                         </sap:WorkflowViewStateService.ViewState>
-                                                                                                                                        <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_29">
+                                                                                                                                        <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_29">
                                                                                                                                           <Assign.To>
                                                                                                                                             <OutArgument x:TypeArguments="x:String">
                                                                                                                                               <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_55">Nombre_de_insumo</CSharpReference>
@@ -2005,7 +2001,25 @@
                                                                                                                                       </Sequence>
                                                                                                                                     </If.Then>
                                                                                                                                     <If.Else>
-                                                                                                                                      <Sequence sap2010:WorkflowViewState.IdRef="Sequence_75" />
+                                                                                                                                      <Sequence sap:VirtualizedContainerService.HintSize="376,229" sap2010:WorkflowViewState.IdRef="Sequence_75">
+                                                                                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                                                                                          </scg:Dictionary>
+                                                                                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                                                                                        <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="334,141" sap2010:WorkflowViewState.IdRef="LogMessage_148">
+                                                                                                                                          <ui:LogMessage.Level>
+                                                                                                                                            <InArgument x:TypeArguments="ui:LogLevel">
+                                                                                                                                              <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_542">UiPath.Core.Activities.LogLevel.Trace</CSharpValue>
+                                                                                                                                            </InArgument>
+                                                                                                                                          </ui:LogMessage.Level>
+                                                                                                                                          <ui:LogMessage.Message>
+                                                                                                                                            <InArgument x:TypeArguments="x:Object">
+                                                                                                                                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_543">"No es insumo: " + CurrentFile.FullName</CSharpValue>
+                                                                                                                                            </InArgument>
+                                                                                                                                          </ui:LogMessage.Message>
+                                                                                                                                        </ui:LogMessage>
+                                                                                                                                      </Sequence>
                                                                                                                                     </If.Else>
                                                                                                                                   </If>
                                                                                                                                 </Sequence>
@@ -2033,7 +2047,7 @@
                                                                                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                                                                 </scg:Dictionary>
                                                                                                                               </sap:WorkflowViewStateService.ViewState>
-                                                                                                                              <Sequence DisplayName="Validar si insumo contiene el delimitaador correcto" sap:VirtualizedContainerService.HintSize="572,1113" sap2010:WorkflowViewState.IdRef="Sequence_82">
+                                                                                                                              <Sequence DisplayName="Validar si insumo contiene el delimitaador correcto" sap:VirtualizedContainerService.HintSize="572,1115" sap2010:WorkflowViewState.IdRef="Sequence_82">
                                                                                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2051,7 +2065,7 @@
                                                                                                                                     </InArgument>
                                                                                                                                   </ui:ReadTextFile.FileName>
                                                                                                                                 </ui:ReadTextFile>
-                                                                                                                                <If DisplayName="Si" sap:VirtualizedContainerService.HintSize="510,882" sap2010:WorkflowViewState.IdRef="If_18">
+                                                                                                                                <If DisplayName="Si" sap:VirtualizedContainerService.HintSize="510,884" sap2010:WorkflowViewState.IdRef="If_18">
                                                                                                                                   <If.Condition>
                                                                                                                                     <InArgument x:TypeArguments="x:Boolean">
                                                                                                                                       <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_412">Insumo_texto.Contains( Activo_Delimitador_de_CSV)</CSharpValue>
@@ -2064,13 +2078,13 @@
                                                                                                                                     </scg:Dictionary>
                                                                                                                                   </sap:WorkflowViewStateService.ViewState>
                                                                                                                                   <If.Then>
-                                                                                                                                    <Sequence sap:VirtualizedContainerService.HintSize="476,350" sap2010:WorkflowViewState.IdRef="Sequence_80">
+                                                                                                                                    <Sequence sap:VirtualizedContainerService.HintSize="476,351" sap2010:WorkflowViewState.IdRef="Sequence_80">
                                                                                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                                                                         </scg:Dictionary>
                                                                                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                                                                                      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_36">
+                                                                                                                                      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_36">
                                                                                                                                         <Assign.To>
                                                                                                                                           <OutArgument x:TypeArguments="x:Boolean">
                                                                                                                                             <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_61">Insumo_texto_contiene_delimitador</CSharpReference>
@@ -2095,13 +2109,13 @@
                                                                                                                                     </Sequence>
                                                                                                                                   </If.Then>
                                                                                                                                   <If.Else>
-                                                                                                                                    <Sequence sap:VirtualizedContainerService.HintSize="476,350" sap2010:WorkflowViewState.IdRef="Sequence_81">
+                                                                                                                                    <Sequence sap:VirtualizedContainerService.HintSize="476,351" sap2010:WorkflowViewState.IdRef="Sequence_81">
                                                                                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                                                                         </scg:Dictionary>
                                                                                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                                                                                      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_37">
+                                                                                                                                      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_37">
                                                                                                                                         <Assign.To>
                                                                                                                                           <OutArgument x:TypeArguments="x:Boolean">
                                                                                                                                             <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_62">Insumo_texto_contiene_delimitador</CSharpReference>
@@ -2127,7 +2141,7 @@
                                                                                                                                   </If.Else>
                                                                                                                                 </If>
                                                                                                                               </Sequence>
-                                                                                                                              <Sequence DisplayName="Validar numero de columnas" sap:VirtualizedContainerService.HintSize="572,1489" sap2010:WorkflowViewState.IdRef="Sequence_87">
+                                                                                                                              <Sequence DisplayName="Validar numero de columnas" sap:VirtualizedContainerService.HintSize="572,1492" sap2010:WorkflowViewState.IdRef="Sequence_87">
                                                                                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2136,7 +2150,7 @@
                                                                                                                                 <ui:ReadCsvFile Delimitator="Semicolon" DisplayName="Leer CSV" sap:VirtualizedContainerService.HintSize="510,154" sap2010:WorkflowViewState.IdRef="ReadCsvFile_2">
                                                                                                                                   <ui:ReadCsvFile.DataTable>
                                                                                                                                     <OutArgument x:TypeArguments="sd:DataTable">
-                                                                                                                                      <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_64">Insumo_Data_Table</CSharpReference>
+                                                                                                                                      <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_64">Insumo_data_table</CSharpReference>
                                                                                                                                     </OutArgument>
                                                                                                                                   </ui:ReadCsvFile.DataTable>
                                                                                                                                   <ui:ReadCsvFile.FilePath>
@@ -2145,7 +2159,7 @@
                                                                                                                                     </InArgument>
                                                                                                                                   </ui:ReadCsvFile.FilePath>
                                                                                                                                 </ui:ReadCsvFile>
-                                                                                                                                <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="510,81" sap2010:WorkflowViewState.IdRef="Assign_40">
+                                                                                                                                <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="510,82" sap2010:WorkflowViewState.IdRef="Assign_40">
                                                                                                                                   <Assign.To>
                                                                                                                                     <OutArgument x:TypeArguments="x:Int32">
                                                                                                                                       <CSharpReference x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpReference`1_65">Numero_de_columnas_de_insumo_procesado</CSharpReference>
@@ -2153,7 +2167,7 @@
                                                                                                                                   </Assign.To>
                                                                                                                                   <Assign.Value>
                                                                                                                                     <InArgument x:TypeArguments="x:Int32">
-                                                                                                                                      <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_420">Insumo_Data_Table.Columns.Count</CSharpValue>
+                                                                                                                                      <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_420">Insumo_data_table.Columns.Count</CSharpValue>
                                                                                                                                     </InArgument>
                                                                                                                                   </Assign.Value>
                                                                                                                                 </Assign>
@@ -2169,23 +2183,23 @@
                                                                                                                                     </InArgument>
                                                                                                                                   </ui:LogMessage.Message>
                                                                                                                                 </ui:LogMessage>
-                                                                                                                                <If DisplayName="Si" sap:VirtualizedContainerService.HintSize="510,882" sap2010:WorkflowViewState.IdRef="If_20">
+                                                                                                                                <If DisplayName="Si" sap:VirtualizedContainerService.HintSize="510,884" sap2010:WorkflowViewState.IdRef="If_20">
                                                                                                                                   <If.Condition>
                                                                                                                                     <InArgument x:TypeArguments="x:Boolean">
                                                                                                                                       <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_423">Numero_de_columnas_de_insumo_procesado == Activo_Numero_de_columnas_de_insumo</CSharpValue>
                                                                                                                                     </InArgument>
                                                                                                                                   </If.Condition>
                                                                                                                                   <If.Then>
-                                                                                                                                    <Sequence sap:VirtualizedContainerService.HintSize="476,350" sap2010:WorkflowViewState.IdRef="Sequence_85">
+                                                                                                                                    <Sequence sap:VirtualizedContainerService.HintSize="476,351" sap2010:WorkflowViewState.IdRef="Sequence_85">
                                                                                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                                                                         </scg:Dictionary>
                                                                                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                                                                                      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_41">
+                                                                                                                                      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_41">
                                                                                                                                         <Assign.To>
                                                                                                                                           <OutArgument x:TypeArguments="x:Boolean">
-                                                                                                                                            <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_66">Insumo_Data_Table_numero_de_columnas_correctas</CSharpReference>
+                                                                                                                                            <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_66">Insumo_data_table_numero_de_columnas_correctas</CSharpReference>
                                                                                                                                           </OutArgument>
                                                                                                                                         </Assign.To>
                                                                                                                                         <Assign.Value>
@@ -2207,16 +2221,16 @@
                                                                                                                                     </Sequence>
                                                                                                                                   </If.Then>
                                                                                                                                   <If.Else>
-                                                                                                                                    <Sequence sap:VirtualizedContainerService.HintSize="476,350" sap2010:WorkflowViewState.IdRef="Sequence_86">
+                                                                                                                                    <Sequence sap:VirtualizedContainerService.HintSize="476,351" sap2010:WorkflowViewState.IdRef="Sequence_86">
                                                                                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                                                                         </scg:Dictionary>
                                                                                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                                                                                      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_42">
+                                                                                                                                      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_42">
                                                                                                                                         <Assign.To>
                                                                                                                                           <OutArgument x:TypeArguments="x:Boolean">
-                                                                                                                                            <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_67">Insumo_Data_Table_numero_de_columnas_correctas</CSharpReference>
+                                                                                                                                            <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_67">Insumo_data_table_numero_de_columnas_correctas</CSharpReference>
                                                                                                                                           </OutArgument>
                                                                                                                                         </Assign.To>
                                                                                                                                         <Assign.Value>
@@ -2243,7 +2257,7 @@
                                                                                                                             <FlowStep.Next>
                                                                                                                               <FlowDecision x:Name="__ReferenceID19" DisplayName="¿Insumo válido?" sap:VirtualizedContainerService.HintSize="91,87" sap2010:WorkflowViewState.IdRef="FlowDecision_9">
                                                                                                                                 <FlowDecision.Condition>
-                                                                                                                                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_428">Insumo_texto_contiene_delimitador &amp;&amp; Insumo_Data_Table_numero_de_columnas_correctas</CSharpValue>
+                                                                                                                                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_428">Insumo_texto_contiene_delimitador &amp;&amp; Insumo_data_table_numero_de_columnas_correctas</CSharpValue>
                                                                                                                                 </FlowDecision.Condition>
                                                                                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -3512,7 +3526,7 @@
                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                   </scg:Dictionary>
                                                                 </sap:WorkflowViewStateService.ViewState>
-                                                                <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_59">
+                                                                <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_59">
                                                                   <Assign.To>
                                                                     <OutArgument x:TypeArguments="x:Int32">
                                                                       <CSharpReference x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpReference`1_85">Contador_correos_para_procesar</CSharpReference>
@@ -3534,7 +3548,7 @@
                                                                     </InArgument>
                                                                   </ui:LogMessage.Message>
                                                                 </ui:LogMessage>
-                                                                <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_60">
+                                                                <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_60">
                                                                   <Assign.To>
                                                                     <OutArgument x:TypeArguments="x:Int32">
                                                                       <CSharpReference x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpReference`1_86">Contador_correos_validos</CSharpReference>

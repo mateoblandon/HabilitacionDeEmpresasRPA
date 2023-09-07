@@ -333,7 +333,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:GetIMAPMailMessages ClientName="{x:Null}" ClientVersion="{x:Null}" FilterExpression="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" DeleteMessages="False" DisplayName="Obtener mensajes de correo IMAP" EnableSSL="True" FilterExpressionCharacterSet="US-ASCII" sap:VirtualizedContainerService.HintSize="388,25" sap2010:WorkflowViewState.IdRef="GetIMAPMailMessages_2" IgnoreCRL="False" MarkAsRead="False" OnlyUnreadMessages="True" OrderByDate="NewestFirst" SecureConnection="Auto" Top="30">
+                    <ui:GetIMAPMailMessages ClientName="{x:Null}" ClientVersion="{x:Null}" FilterExpression="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" DeleteMessages="False" DisplayName="Obtener mensajes de correo IMAP" EnableSSL="True" FilterExpressionCharacterSet="US-ASCII" sap:VirtualizedContainerService.HintSize="388,25" sap2010:WorkflowViewState.IdRef="GetIMAPMailMessages_2" IgnoreCRL="False" MarkAsRead="False" OnlyUnreadMessages="False" OrderByDate="NewestFirst" SecureConnection="Auto" Top="30">
                       <ui:GetIMAPMailMessages.Email>
                         <InArgument x:TypeArguments="x:String">
                           <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">Activo_Correo_NumRot</CSharpValue>
@@ -442,7 +442,7 @@
                                 </sap:WorkflowViewStateService.ViewState>
                                 <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Añadir elemento de la cola" FolderPath="HabilitacionDeEmpresasRPA" sap:VirtualizedContainerService.HintSize="388,194" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" Priority="Normal" QueueType="MonitoreoDeCarpetaDeCorreoQueue">
                                   <ui:AddQueueItem.ItemInformation>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Fecha_y_hora_de_ejcucicion">
+                                    <InArgument x:TypeArguments="x:String" x:Key="Fecha_y_hora_de_ejecucion">
                                       <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_56">Fecha_y_hora_de_ejecucion.ToString(Activo_Formato_de_fecha_y_hora_para_referencia_de_colas)</CSharpValue>
                                     </InArgument>
                                   </ui:AddQueueItem.ItemInformation>
