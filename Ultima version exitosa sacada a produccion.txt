@@ -1,0 +1,3 @@
+El 7 de julio del 2023 Amazon cambio la etiqueta del bontón de filtro de tiempo de consulta. Estaba como "Pezonalizar" y se cambió a "Custom" y ya no era necesario presionar el botón "Aplicar". Se actualizó la RPA de la versión 1.0.35  a la 1.0.40 y quedó funcional.
+
+El día 8, Amazón la volvió a cambiar el filtro como estaba y Natura montó PQR. Para solucionar esto volví a la versión 1.0.35

@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FEVPGenerator/1.0.0": {
+        "dependencies": {
+          "Tynamix.ObjectFiller": "1.5.7",
+          "NumRot.UBL2": "1.0.0.0"
+        },
+        "runtime": {
+          "FEVPGenerator.dll": {}
+        }
+      },
+      "Tynamix.ObjectFiller/1.5.7": {
+        "runtime": {
+          "lib/netstandard2.0/Tynamix.ObjectFiller.dll": {
+            "assemblyVersion": "1.5.7.0",
+            "fileVersion": "1.5.7.0"
+          }
+        }
+      },
+      "NumRot.UBL2/1.0.0.0": {
+        "runtime": {
+          "NumRot.UBL2.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FEVPGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tynamix.ObjectFiller/1.5.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o7aVamQuxNpKpwEEoGT7RAPepV828nfcklfQAY3pDTLGoL5pLIl05lGai4tn+OMmjEqpBuN85IQF2wSDqXyTRA==",
+      "path": "tynamix.objectfiller/1.5.7",
+      "hashPath": "tynamix.objectfiller.1.5.7.nupkg.sha512"
+    },
+    "NumRot.UBL2/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

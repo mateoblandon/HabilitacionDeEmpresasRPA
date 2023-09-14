@@ -1,0 +1,5 @@
+"INSERT INTO Resoluciones (ObligadoNit,ResolucionNumero,ResolucionFechaInicio,ResolucionFechaFin,ResolucionPrefijo,ResolucionDesde,ResolucionHasta,ResolucionClaveTecnica,ResolucionCertificado,ResolucionCertificadoClave,ResolucionCertificadoVencimiento,ResolucionPINSoftware,ResolucionIdSoftware,ResolucionCodigoPPP,ResolucionSetId) VALUES ('" + 901582324 + "','18760000001','2019-01-19','2030-01-19','SETT','1','5000000','fc8eac422eba16e22ffd8c6f94b3f40a6e38162c','Certificado_VSDC.p12','fdfad6a63cKJ','','00842','d77c215b-c852-4201-99d4-d40010cca32e','012','" + 6e3c6c47-451f-4bbe-acb4-a58ab2c7d166 + "');"
+
+DELETE FROM Resoluciones where ObligadoNit = "901582324";
+
+| © [09:25:54] Query finished in 0.006 second(s). Rows affected: 1 |
