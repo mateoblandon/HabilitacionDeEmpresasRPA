@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NominaIndividualDeAjuste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" xs:schemaLocation="dian:gov:co:facturaelectronica:NominaIndividualDeAjuste NominaIndividualDeAjusteElectronicaXSD.xsd" SchemaLocation="" xmlns="dian:gov:co:facturaelectronica:NominaIndividualDeAjuste">
+  <ext:UBLExtensions />
+  <TipoNota>1</TipoNota>
+  <Reemplazar>
+    <ReemplazandoPredecesor NumeroPred="SETP3" CUNEPred="b8e7b41ad67d77aad4ee0c55e1557052a2de3c973d3e34e8bdd58034b15f9697128336ab61748fffe868222d81310bf4" FechaGenPred="2023-09-13" />
+    <Periodo FechaIngreso="2021-06-01" FechaLiquidacionInicio="2021-06-01" FechaLiquidacionFin="2021-07-01" TiempoLaborado="30" FechaGen="2021-07-12" />
+    <NumeroSecuenciaXML CodigoTrabajador="Razuzesobobo" Prefijo="SETP" Consecutivo="4" Numero="SETP4" />
+    <LugarGeneracionXML Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Idioma="es" />
+    <CodigoQR>https://catalogo-vpfe-hab.dian.gov.co/document/searchqr?documentkey=63bf7b55a991923b67e595e9e57e82a3cd6db8422160950f448cf77baf52f28e098e3825e1eb45078084eaf8d87d7493</CodigoQR>
+    <InformacionGeneral Version="V1.0: Documento Soporte de Pago de Nómina Electrónica" Ambiente="2" TipoXML="103" CUNE="63bf7b55a991923b67e595e9e57e82a3cd6db8422160950f448cf77baf52f28e098e3825e1eb45078084eaf8d87d7493" EncripCUNE="CUNE-SHA384" FechaGen="2023-09-13" HoraGen="14:30:00-05:00" PeriodoNomina="4" TipoMoneda="COP" />
+    <Notas>Cub</Notas>
+    <Notas>Razilowel</Notas>
+    <Notas>Gipoluvu</Notas>
+    <Notas>Cizejokaju</Notas>
+    <Notas>Wawujijacuse</Notas>
+    <Empleador RazonSocial="FUNDACIÓN DE EXTENSIÓN LA SALLE" SegundoApellido="Wirazatasuzot" NIT="900558677" DV="6" Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Direccion="Pinacocumuleg" />
+    <Trabajador TipoTrabajador="01" SubTipoTrabajador="00" AltoRiesgoPension="false" TipoDocumento="13" NumeroDocumento="1152442015" PrimerApellido="Hirsch" SegundoApellido="Coffman" PrimerNombre="Grady" OtrosNombres="Mekigihebomu" LugarTrabajoPais="CO" LugarTrabajoDepartamentoEstado="05" LugarTrabajoMunicipioCiudad="05001" LugarTrabajoDireccion="Hufulosima" SalarioIntegral="true" TipoContrato="2" Sueldo="698719510" CodigoTrabajador="Gacutesacew" />
+    <Pago Forma="1" Metodo="10" />
+    <FechasPagos>
+      <FechaPago>2021-06-01</FechaPago>
+      <FechaPago>2021-06-01</FechaPago>
+    </FechasPagos>
+    <Devengados>
+      <Basico DiasTrabajados="30" SueldoTrabajado="876038873" />
+    </Devengados>
+    <Deducciones>
+      <Salud Porcentaje="0.00" Deduccion="1780457814" />
+      <FondoPension Porcentaje="0.00" Deduccion="1728849824" />
+      <Libranzas>
+        <Libranza Descripcion="Zipore" Deduccion="1121794304" />
+      </Libranzas>
+    </Deducciones>
+    <DevengadosTotal>8160</DevengadosTotal>
+    <DeduccionesTotal>8160</DeduccionesTotal>
+    <ComprobanteTotal>8160</ComprobanteTotal>
+  </Reemplazar>
+  <DATA>
+    <SoftwareProviderID>811026198</SoftwareProviderID>
+    <NombreConfiguracion>NOMINA PRUEBA</NombreConfiguracion>
+    <RutaPDFConfigurada>X:\NumRot\NRA_API\Entrada</RutaPDFConfigurada>
+    <CertificadoFirma>Certificado_VSDC.p12</CertificadoFirma>
+    <CertificadoContrasena>fdfad6a63cKJs</CertificadoContrasena>
+    <IdSoftware>2288922b-2a70-47b0-922e-392478fc13dc</IdSoftware>
+    <PINSoftware>00842</PINSoftware>
+    <ClaimedRole>third party</ClaimedRole>
+    <CodigoPPP>012</CodigoPPP>
+  </DATA>
+</NominaIndividualDeAjuste>

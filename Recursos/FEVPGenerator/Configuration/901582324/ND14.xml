@@ -23,15 +23,15 @@
   <cbc:CustomizationID>30</cbc:CustomizationID>
   <cbc:ProfileExecutionID>2</cbc:ProfileExecutionID>
   <cbc:ID>ND14</cbc:ID>
-  <cbc:IssueDate>2023-09-13</cbc:IssueDate>
-  <cbc:IssueTime>09:41:31-05:00</cbc:IssueTime>
-  <cbc:Note>Ficusunanuniz</cbc:Note>
-  <cbc:Note>Pufahabinodufa</cbc:Note>
-  <cbc:Note>Riwepedeheloto</cbc:Note>
-  <cbc:Note>Navivasijuvama</cbc:Note>
-  <cbc:Note>Mavatokuk</cbc:Note>
+  <cbc:IssueDate>2023-09-14</cbc:IssueDate>
+  <cbc:IssueTime>15:39:16-05:00</cbc:IssueTime>
+  <cbc:Note>Gek</cbc:Note>
+  <cbc:Note>Digazamilim</cbc:Note>
+  <cbc:Note>Kahonepuzo</cbc:Note>
+  <cbc:Note>Hidugi</cbc:Note>
+  <cbc:Note>Saropegozo</cbc:Note>
   <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
-  <cbc:LineCountNumeric>5</cbc:LineCountNumeric>
+  <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
   <cac:BillingReference>
     <cac:InvoiceDocumentReference>
       <cbc:ID>SETT14</cbc:ID>
@@ -51,7 +51,7 @@
           <cbc:CountrySubentity>Antioquia</cbc:CountrySubentity>
           <cbc:CountrySubentityCode>05</cbc:CountrySubentityCode>
           <cac:AddressLine>
-            <cbc:Line>Setes</cbc:Line>
+            <cbc:Line>Tudususigu</cbc:Line>
           </cac:AddressLine>
           <cac:Country>
             <cbc:IdentificationCode>CO</cbc:IdentificationCode>
@@ -106,68 +106,20 @@
     <cbc:PaymentMeansCode>ZZZ</cbc:PaymentMeansCode>
   </cac:PaymentMeans>
   <cac:RequestedMonetaryTotal>
-    <cbc:LineExtensionAmount>5284639563</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount>1359394653</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount>0.00</cbc:TaxExclusiveAmount>
-    <cbc:TaxInclusiveAmount>5284639563.00</cbc:TaxInclusiveAmount>
-    <cbc:PayableAmount>5284639563.00</cbc:PayableAmount>
+    <cbc:TaxInclusiveAmount>1359394653.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount>1359394653.00</cbc:PayableAmount>
   </cac:RequestedMonetaryTotal>
   <cac:DebitNoteLine>
     <cbc:ID>1</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">502206264</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1359394653</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Nezematikehe</cbc:Description>
+      <cbc:Description>Zekok</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">502206264</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:DebitNoteLine>
-  <cac:DebitNoteLine>
-    <cbc:ID>2</cbc:ID>
-    <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">725904410</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Nezematikehe</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">725904410</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:DebitNoteLine>
-  <cac:DebitNoteLine>
-    <cbc:ID>3</cbc:ID>
-    <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1497686951</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Nezematikehe</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1497686951</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:DebitNoteLine>
-  <cac:DebitNoteLine>
-    <cbc:ID>4</cbc:ID>
-    <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1042153959</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Nezematikehe</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1042153959</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:DebitNoteLine>
-  <cac:DebitNoteLine>
-    <cbc:ID>5</cbc:ID>
-    <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1516687979</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Nezematikehe</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1516687979</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1359394653</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>

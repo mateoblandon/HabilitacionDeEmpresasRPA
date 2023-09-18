@@ -23,17 +23,17 @@
   <cbc:CustomizationID>10</cbc:CustomizationID>
   <cbc:ProfileExecutionID>2</cbc:ProfileExecutionID>
   <cbc:ID>SETT5</cbc:ID>
-  <cbc:IssueDate>2023-09-13</cbc:IssueDate>
-  <cbc:IssueTime>09:41:31-05:00</cbc:IssueTime>
+  <cbc:IssueDate>2023-09-14</cbc:IssueDate>
+  <cbc:IssueTime>15:39:15-05:00</cbc:IssueTime>
   <cbc:InvoiceTypeCode>01</cbc:InvoiceTypeCode>
-  <cbc:Note>Zavaleraje</cbc:Note>
-  <cbc:Note>Tivep</cbc:Note>
-  <cbc:Note>Juguhov</cbc:Note>
-  <cbc:Note>Vurefekovuhi</cbc:Note>
-  <cbc:Note>Cekufawip</cbc:Note>
-  <cbc:AccountingCostCode listID="Zofuno" listAgencyID="Jufawalig" listAgencyName="Muwim" listName="Jecicamanemawi" listVersionID="Sukekepenimeva" name="Nuwa" languageID="Pezasiheti" listURI="Cododetijezozo" listSchemeURI="Zaf">Zofakavojege</cbc:AccountingCostCode>
+  <cbc:Note>Neravomogokali</cbc:Note>
+  <cbc:Note>Fahusi</cbc:Note>
+  <cbc:Note>Galudenijo</cbc:Note>
+  <cbc:Note>Hirecusolubog</cbc:Note>
+  <cbc:Note>Barehifica</cbc:Note>
+  <cbc:AccountingCostCode listID="Zuh" listAgencyID="Wigiforasal" listAgencyName="Nopurivin" listName="Celebitijacor" listVersionID="Povowem" name="Fipuwukahivawo" languageID="Wema" listURI="Ziber" listSchemeURI="Bovilugesi">Kajipemonu</cbc:AccountingCostCode>
   <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
-  <cbc:LineCountNumeric>8</cbc:LineCountNumeric>
+  <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
   <cac:AccountingSupplierParty>
     <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
     <cac:Party>
@@ -48,7 +48,7 @@
           <cbc:CountrySubentity>Antioquia</cbc:CountrySubentity>
           <cbc:CountrySubentityCode>05</cbc:CountrySubentityCode>
           <cac:AddressLine>
-            <cbc:Line>Wecapinitelam</cbc:Line>
+            <cbc:Line>Tor</cbc:Line>
           </cac:AddressLine>
           <cac:Country>
             <cbc:IdentificationCode>CO</cbc:IdentificationCode>
@@ -103,104 +103,20 @@
     <cbc:PaymentMeansCode>ZZZ</cbc:PaymentMeansCode>
   </cac:PaymentMeans>
   <cac:LegalMonetaryTotal>
-    <cbc:LineExtensionAmount>11577213225</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount>1958466460</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount>0.00</cbc:TaxExclusiveAmount>
-    <cbc:TaxInclusiveAmount>11577213225.00</cbc:TaxInclusiveAmount>
-    <cbc:PayableAmount>11577213225.00</cbc:PayableAmount>
+    <cbc:TaxInclusiveAmount>1958466460.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount>1958466460.00</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>
     <cbc:ID>1</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">939874662</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1958466460</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Nahenuw</cbc:Description>
+      <cbc:Description>Kuvumerit</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">939874662</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>2</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1512999253</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Nahenuw</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1512999253</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>3</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1201309432</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Nahenuw</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1201309432</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>4</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1948691132</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Nahenuw</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1948691132</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>5</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1546122328</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Nahenuw</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1546122328</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>6</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">844996605</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Nahenuw</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">844996605</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>7</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1528728267</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Nahenuw</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1528728267</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>8</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">2054491546</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Nahenuw</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">2054491546</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1958466460</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>

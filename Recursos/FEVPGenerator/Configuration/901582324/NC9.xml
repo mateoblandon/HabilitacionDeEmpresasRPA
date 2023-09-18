@@ -23,16 +23,16 @@
   <cbc:CustomizationID>20</cbc:CustomizationID>
   <cbc:ProfileExecutionID>2</cbc:ProfileExecutionID>
   <cbc:ID>NC9</cbc:ID>
-  <cbc:IssueDate>2023-09-13</cbc:IssueDate>
-  <cbc:IssueTime>09:41:31-05:00</cbc:IssueTime>
+  <cbc:IssueDate>2023-09-14</cbc:IssueDate>
+  <cbc:IssueTime>15:39:16-05:00</cbc:IssueTime>
   <cbc:CreditNoteTypeCode>91</cbc:CreditNoteTypeCode>
-  <cbc:Note>Fap</cbc:Note>
-  <cbc:Note>Fedur</cbc:Note>
-  <cbc:Note>Wererasusuf</cbc:Note>
-  <cbc:Note>Conenawusoc</cbc:Note>
-  <cbc:Note>Dukijefubemam</cbc:Note>
+  <cbc:Note>Minat</cbc:Note>
+  <cbc:Note>Vepi</cbc:Note>
+  <cbc:Note>Sanezonipo</cbc:Note>
+  <cbc:Note>Midoziz</cbc:Note>
+  <cbc:Note>Zozizopavu</cbc:Note>
   <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
-  <cbc:LineCountNumeric>6</cbc:LineCountNumeric>
+  <cbc:LineCountNumeric>5</cbc:LineCountNumeric>
   <cac:BillingReference>
     <cac:InvoiceDocumentReference>
       <cbc:ID>SETT9</cbc:ID>
@@ -52,7 +52,7 @@
           <cbc:CountrySubentity>Antioquia</cbc:CountrySubentity>
           <cbc:CountrySubentityCode>05</cbc:CountrySubentityCode>
           <cac:AddressLine>
-            <cbc:Line>Ruhohusosawake</cbc:Line>
+            <cbc:Line>Kosufilesolita</cbc:Line>
           </cac:AddressLine>
           <cac:Country>
             <cbc:IdentificationCode>CO</cbc:IdentificationCode>
@@ -107,80 +107,68 @@
     <cbc:PaymentMeansCode>ZZZ</cbc:PaymentMeansCode>
   </cac:PaymentMeans>
   <cac:LegalMonetaryTotal>
-    <cbc:LineExtensionAmount>7276470458</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount>7525531430</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount>0.00</cbc:TaxExclusiveAmount>
-    <cbc:TaxInclusiveAmount>7276470458.00</cbc:TaxInclusiveAmount>
-    <cbc:PayableAmount>7276470458.00</cbc:PayableAmount>
+    <cbc:TaxInclusiveAmount>7525531430.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount>7525531430.00</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
   <cac:CreditNoteLine>
     <cbc:ID>1</cbc:ID>
     <cbc:CreditedQuantity unitCode="94">1.00</cbc:CreditedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1829693181</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">2143266747</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Sezosebereg</cbc:Description>
+      <cbc:Description>Wavemorilu</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1829693181</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">2143266747</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:CreditNoteLine>
   <cac:CreditNoteLine>
     <cbc:ID>2</cbc:ID>
     <cbc:CreditedQuantity unitCode="94">1.00</cbc:CreditedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">942185467</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1964126730</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Sezosebereg</cbc:Description>
+      <cbc:Description>Wavemorilu</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">942185467</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1964126730</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:CreditNoteLine>
   <cac:CreditNoteLine>
     <cbc:ID>3</cbc:ID>
     <cbc:CreditedQuantity unitCode="94">1.00</cbc:CreditedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1984606144</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1454582106</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Sezosebereg</cbc:Description>
+      <cbc:Description>Wavemorilu</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1984606144</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1454582106</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:CreditNoteLine>
   <cac:CreditNoteLine>
     <cbc:ID>4</cbc:ID>
     <cbc:CreditedQuantity unitCode="94">1.00</cbc:CreditedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">265609546</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1045991327</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Sezosebereg</cbc:Description>
+      <cbc:Description>Wavemorilu</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">265609546</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1045991327</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:CreditNoteLine>
   <cac:CreditNoteLine>
     <cbc:ID>5</cbc:ID>
     <cbc:CreditedQuantity unitCode="94">1.00</cbc:CreditedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">2025009736</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">917564520</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Sezosebereg</cbc:Description>
+      <cbc:Description>Wavemorilu</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">2025009736</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:CreditNoteLine>
-  <cac:CreditNoteLine>
-    <cbc:ID>6</cbc:ID>
-    <cbc:CreditedQuantity unitCode="94">1.00</cbc:CreditedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">229366384</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Sezosebereg</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">229366384</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">917564520</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:CreditNoteLine>

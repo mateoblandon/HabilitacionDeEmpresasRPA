@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NominaIndividualDeAjuste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" xs:schemaLocation="dian:gov:co:facturaelectronica:NominaIndividualDeAjuste NominaIndividualDeAjusteElectronicaXSD.xsd" SchemaLocation="" xmlns="dian:gov:co:facturaelectronica:NominaIndividualDeAjuste">
+  <ext:UBLExtensions />
+  <TipoNota>1</TipoNota>
+  <Reemplazar>
+    <ReemplazandoPredecesor NumeroPred="SETP1" CUNEPred="554e754518a8d7926230a287f8335930ed13d7e81aaa8ee7560db92f6c682bbf45b7731e68cb57f292b1e012293e4513" FechaGenPred="2023-09-13" />
+    <Periodo FechaIngreso="2021-06-01" FechaLiquidacionInicio="2021-06-01" FechaLiquidacionFin="2021-07-01" TiempoLaborado="30" FechaGen="2021-07-12" />
+    <NumeroSecuenciaXML CodigoTrabajador="Wef" Prefijo="SETP" Consecutivo="2" Numero="SETP2" />
+    <LugarGeneracionXML Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Idioma="es" />
+    <CodigoQR>https://catalogo-vpfe-hab.dian.gov.co/document/searchqr?documentkey=3a9311f321dbf746e2b9a91cbf29272c525ee1787b026b6379bb3ad459679e89e11de232561bfcb4407d2767c3784254</CodigoQR>
+    <InformacionGeneral Version="V1.0: Documento Soporte de Pago de Nómina Electrónica" Ambiente="2" TipoXML="103" CUNE="3a9311f321dbf746e2b9a91cbf29272c525ee1787b026b6379bb3ad459679e89e11de232561bfcb4407d2767c3784254" EncripCUNE="CUNE-SHA384" FechaGen="2023-09-13" HoraGen="14:30:00-05:00" PeriodoNomina="4" TipoMoneda="COP" />
+    <Notas>Johusi</Notas>
+    <Notas>Bewaj</Notas>
+    <Notas>Guci</Notas>
+    <Notas>Fagusa</Notas>
+    <Notas>Rarepurike</Notas>
+    <Notas>Fonugikofal</Notas>
+    <Notas>Bajawufosoru</Notas>
+    <Notas>Ziwehuvekaji</Notas>
+    <Notas>Nenipedogek</Notas>
+    <Empleador RazonSocial="FUNDACIÓN DE EXTENSIÓN LA SALLE" SegundoApellido="Vilor" NIT="900558677" DV="6" Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Direccion="Juc" />
+    <Trabajador TipoTrabajador="01" SubTipoTrabajador="00" AltoRiesgoPension="true" TipoDocumento="13" NumeroDocumento="1152442015" PrimerApellido="Crook" SegundoApellido="Talbott" PrimerNombre="Cody" OtrosNombres="Lehosop" LugarTrabajoPais="CO" LugarTrabajoDepartamentoEstado="05" LugarTrabajoMunicipioCiudad="05001" LugarTrabajoDireccion="Viziwowinot" SalarioIntegral="false" TipoContrato="2" Sueldo="1775231417" CodigoTrabajador="Cuforogawokipu" />
+    <Pago Forma="1" Metodo="10" />
+    <FechasPagos>
+      <FechaPago>2021-06-01</FechaPago>
+      <FechaPago>2021-06-01</FechaPago>
+    </FechasPagos>
+    <Devengados>
+      <Basico DiasTrabajados="30" SueldoTrabajado="1494738282" />
+    </Devengados>
+    <Deducciones>
+      <Salud Porcentaje="0.00" Deduccion="1855688495" />
+      <FondoPension Porcentaje="0.00" Deduccion="808816088" />
+      <Libranzas>
+        <Libranza Descripcion="Movu" Deduccion="2038306934" />
+        <Libranza Descripcion="Hibacev" Deduccion="2008592202" />
+      </Libranzas>
+    </Deducciones>
+    <DevengadosTotal>297927</DevengadosTotal>
+    <DeduccionesTotal>297927</DeduccionesTotal>
+    <ComprobanteTotal>297927</ComprobanteTotal>
+  </Reemplazar>
+  <DATA>
+    <SoftwareProviderID>811026198</SoftwareProviderID>
+    <NombreConfiguracion>NOMINA PRUEBA</NombreConfiguracion>
+    <RutaPDFConfigurada>X:\NumRot\NRA_API\Entrada</RutaPDFConfigurada>
+    <CertificadoFirma>Certificado_VSDC.p12</CertificadoFirma>
+    <CertificadoContrasena>fdfad6a63cKJs</CertificadoContrasena>
+    <IdSoftware>2288922b-2a70-47b0-922e-392478fc13dc</IdSoftware>
+    <PINSoftware>00842</PINSoftware>
+    <ClaimedRole>third party</ClaimedRole>
+    <CodigoPPP>012</CodigoPPP>
+  </DATA>
+</NominaIndividualDeAjuste>

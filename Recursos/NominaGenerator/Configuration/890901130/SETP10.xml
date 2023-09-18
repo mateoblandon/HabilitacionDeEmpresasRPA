@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NominaIndividualDeAjuste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" xs:schemaLocation="dian:gov:co:facturaelectronica:NominaIndividualDeAjuste NominaIndividualDeAjusteElectronicaXSD.xsd" SchemaLocation="" xmlns="dian:gov:co:facturaelectronica:NominaIndividualDeAjuste">
+  <ext:UBLExtensions />
+  <TipoNota>1</TipoNota>
+  <Reemplazar>
+    <ReemplazandoPredecesor NumeroPred="SETP9" CUNEPred="64088b540e3cbba201bc8caf663777e33204147f3833f50d7e429e0dd41c528cee6e447d9e9ab511b9d0bd543714fc66" FechaGenPred="2023-09-13" />
+    <Periodo FechaIngreso="2021-06-01" FechaLiquidacionInicio="2021-06-01" FechaLiquidacionFin="2021-07-01" TiempoLaborado="30" FechaGen="2021-07-12" />
+    <NumeroSecuenciaXML CodigoTrabajador="Botocohuguz" Prefijo="SETP" Consecutivo="10" Numero="SETP10" />
+    <LugarGeneracionXML Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Idioma="es" />
+    <CodigoQR>https://catalogo-vpfe-hab.dian.gov.co/document/searchqr?documentkey=e483285014b8ded02c26960390e77f31337b9290fc8fd47ab63b7238817c932c8c99b0886c0b5d70cf3768153811a5de</CodigoQR>
+    <InformacionGeneral Version="V1.0: Documento Soporte de Pago de Nómina Electrónica" Ambiente="2" TipoXML="103" CUNE="e483285014b8ded02c26960390e77f31337b9290fc8fd47ab63b7238817c932c8c99b0886c0b5d70cf3768153811a5de" EncripCUNE="CUNE-SHA384" FechaGen="2023-09-13" HoraGen="14:30:00-05:00" PeriodoNomina="4" TipoMoneda="COP" />
+    <Notas>Jeji</Notas>
+    <Notas>Retamulene</Notas>
+    <Notas>Kokelabu</Notas>
+    <Empleador RazonSocial="CONGREGACION DE LOS HERMANOS DE LAS ESCUELAS CRISTIANAS" SegundoApellido="Heres" NIT="890901130" DV="5" Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Direccion="Fedob" />
+    <Trabajador TipoTrabajador="01" SubTipoTrabajador="00" AltoRiesgoPension="true" TipoDocumento="13" NumeroDocumento="1152442015" PrimerApellido="Neely" SegundoApellido="Mackenzie" PrimerNombre="Donya" OtrosNombres="Jusudoli" LugarTrabajoPais="CO" LugarTrabajoDepartamentoEstado="05" LugarTrabajoMunicipioCiudad="05001" LugarTrabajoDireccion="Mekuf" SalarioIntegral="false" TipoContrato="2" Sueldo="845949727" CodigoTrabajador="Rolazofatew" />
+    <Pago Forma="1" Metodo="10" />
+    <FechasPagos>
+      <FechaPago>2021-06-01</FechaPago>
+      <FechaPago>2021-06-01</FechaPago>
+    </FechasPagos>
+    <Devengados>
+      <Basico DiasTrabajados="30" SueldoTrabajado="417257861" />
+    </Devengados>
+    <Deducciones>
+      <Salud Porcentaje="0.00" Deduccion="2082171155" />
+      <FondoPension Porcentaje="0.00" Deduccion="1270849673" />
+      <Libranzas>
+        <Libranza Descripcion="Tub" Deduccion="898485053" />
+        <Libranza Descripcion="Tasiceraruh" Deduccion="281751486" />
+      </Libranzas>
+    </Deducciones>
+    <DevengadosTotal>210142</DevengadosTotal>
+    <DeduccionesTotal>210142</DeduccionesTotal>
+    <ComprobanteTotal>210142</ComprobanteTotal>
+  </Reemplazar>
+  <DATA>
+    <SoftwareProviderID>811026198</SoftwareProviderID>
+    <NombreConfiguracion>NOMINA PRUEBA</NombreConfiguracion>
+    <RutaPDFConfigurada>X:\NumRot\NRA_API\Entrada</RutaPDFConfigurada>
+    <CertificadoFirma>Certificado_VSDC.p12</CertificadoFirma>
+    <CertificadoContrasena>fdfad6a63cKJs</CertificadoContrasena>
+    <IdSoftware>2288922b-2a70-47b0-922e-392478fc13dc</IdSoftware>
+    <PINSoftware>00842</PINSoftware>
+    <ClaimedRole>third party</ClaimedRole>
+    <CodigoPPP>012</CodigoPPP>
+  </DATA>
+</NominaIndividualDeAjuste>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NominaIndividual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" xs:schemaLocation="dian:gov:co:facturaelectronica:NominaIndividual NominaIndividualElectronicaXSD.xsd" SchemaLocation="" xmlns="dian:gov:co:facturaelectronica:NominaIndividual">
+  <ext:UBLExtensions />
+  <Novedad CUNENov="Musilijice">false</Novedad>
+  <Periodo FechaIngreso="2021-06-01" FechaLiquidacionInicio="2021-06-01" FechaLiquidacionFin="2021-07-01" TiempoLaborado="30" FechaGen="2021-07-12" />
+  <NumeroSecuenciaXML CodigoTrabajador="Lidacitatu" Prefijo="SETP" Consecutivo="3" Numero="SETP3" />
+  <LugarGeneracionXML Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Idioma="es" />
+  <CodigoQR>https://catalogo-vpfe-hab.dian.gov.co/document/searchqr?documentkey=d3e382efbb1b90d4bc8b8b4873dca6451dbc326d4129092811c83cd0aa7f500ba371b71dca237f5fa3b964df9a8362f1</CodigoQR>
+  <InformacionGeneral Version="V1.0: Documento Soporte de Pago de Nómina Electrónica" Ambiente="2" TipoXML="102" CUNE="d3e382efbb1b90d4bc8b8b4873dca6451dbc326d4129092811c83cd0aa7f500ba371b71dca237f5fa3b964df9a8362f1" EncripCUNE="CUNE-SHA384" FechaGen="2023-09-13" HoraGen="14:30:00-05:00" PeriodoNomina="4" TipoMoneda="COP" />
+  <Notas>Legane</Notas>
+  <Notas>Hasozowif</Notas>
+  <Empleador RazonSocial="CONGREGACION DE LOS HERMANOS DE LAS ESCUELAS CRISTIANAS" SegundoApellido="Jofugajaci" NIT="890901130" DV="5" Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Direccion="Cahi" />
+  <Trabajador TipoTrabajador="01" SubTipoTrabajador="00" AltoRiesgoPension="true" TipoDocumento="13" NumeroDocumento="1152442015" PrimerApellido="Gresham" SegundoApellido="Tovar" PrimerNombre="Jeffrey" OtrosNombres="Memejirobewu" LugarTrabajoPais="CO" LugarTrabajoDepartamentoEstado="05" LugarTrabajoMunicipioCiudad="05001" LugarTrabajoDireccion="Jenez" SalarioIntegral="false" TipoContrato="2" Sueldo="1391740923" CodigoTrabajador="Zugimonako" />
+  <Pago Forma="1" Metodo="10" />
+  <FechasPagos>
+    <FechaPago>2021-06-01</FechaPago>
+  </FechasPagos>
+  <Devengados>
+    <Basico DiasTrabajados="30" SueldoTrabajado="1618895145" />
+  </Devengados>
+  <Deducciones>
+    <Salud Porcentaje="0.00" Deduccion="159898727" />
+    <FondoPension Porcentaje="0.00" Deduccion="1552007887" />
+    <Libranzas>
+      <Libranza Descripcion="Dinati" Deduccion="32732567" />
+      <Libranza Descripcion="Guladabumanuzi" Deduccion="1435984166" />
+    </Libranzas>
+  </Deducciones>
+  <DevengadosTotal>242953</DevengadosTotal>
+  <DeduccionesTotal>242953</DeduccionesTotal>
+  <ComprobanteTotal>242953</ComprobanteTotal>
+  <DATA>
+    <SoftwareProviderID>811026198</SoftwareProviderID>
+    <NombreConfiguracion>NOMINA PRUEBA</NombreConfiguracion>
+    <RutaPDFConfigurada>X:\NumRot\NRA_API\Entrada</RutaPDFConfigurada>
+    <CertificadoFirma>Certificado_VSDC.p12</CertificadoFirma>
+    <CertificadoContrasena>fdfad6a63cKJs</CertificadoContrasena>
+    <IdSoftware>2288922b-2a70-47b0-922e-392478fc13dc</IdSoftware>
+    <PINSoftware>00842</PINSoftware>
+    <ClaimedRole>third party</ClaimedRole>
+    <CodigoPPP>012</CodigoPPP>
+  </DATA>
+</NominaIndividual>

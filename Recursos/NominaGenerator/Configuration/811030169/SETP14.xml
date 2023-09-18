@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NominaIndividualDeAjuste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" xs:schemaLocation="dian:gov:co:facturaelectronica:NominaIndividualDeAjuste NominaIndividualDeAjusteElectronicaXSD.xsd" SchemaLocation="" xmlns="dian:gov:co:facturaelectronica:NominaIndividualDeAjuste">
+  <ext:UBLExtensions />
+  <TipoNota>1</TipoNota>
+  <Reemplazar>
+    <ReemplazandoPredecesor NumeroPred="SETP13" CUNEPred="ae893ec07923199568fc0368169cc2a1a07725171d12627459ed40834e4e4889909dfa786ef8458a03562c07ff32f513" FechaGenPred="2023-09-13" />
+    <Periodo FechaIngreso="2021-06-01" FechaLiquidacionInicio="2021-06-01" FechaLiquidacionFin="2021-07-01" TiempoLaborado="30" FechaGen="2021-07-12" />
+    <NumeroSecuenciaXML CodigoTrabajador="Cuforigef" Prefijo="SETP" Consecutivo="14" Numero="SETP14" />
+    <LugarGeneracionXML Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Idioma="es" />
+    <CodigoQR>https://catalogo-vpfe-hab.dian.gov.co/document/searchqr?documentkey=ff340bb0cfc2da1e2b72dbb4895924bb96bff938eb7eb73c1e4ebbab31e1fb272e707f862a658ceb47cdca42e8c2ae59</CodigoQR>
+    <InformacionGeneral Version="V1.0: Documento Soporte de Pago de Nómina Electrónica" Ambiente="2" TipoXML="103" CUNE="ff340bb0cfc2da1e2b72dbb4895924bb96bff938eb7eb73c1e4ebbab31e1fb272e707f862a658ceb47cdca42e8c2ae59" EncripCUNE="CUNE-SHA384" FechaGen="2023-09-13" HoraGen="14:30:00-05:00" PeriodoNomina="4" TipoMoneda="COP" />
+    <Notas>Tenupitahujov</Notas>
+    <Notas>Gikunan</Notas>
+    <Notas>Buneculivom</Notas>
+    <Notas>Cuzigedazetu</Notas>
+    <Notas>Rem</Notas>
+    <Empleador RazonSocial="FUNDACION AUTONOMA DE LA SALLE CASA DE ENCUENTROS" SegundoApellido="Folepizoju" NIT="811030169" DV="6" Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Direccion="Gahelilew" />
+    <Trabajador TipoTrabajador="01" SubTipoTrabajador="00" AltoRiesgoPension="true" TipoDocumento="13" NumeroDocumento="1152442015" PrimerApellido="Schultz" SegundoApellido="Spurlock" PrimerNombre="Maragret" OtrosNombres="Tivevatalef" LugarTrabajoPais="CO" LugarTrabajoDepartamentoEstado="05" LugarTrabajoMunicipioCiudad="05001" LugarTrabajoDireccion="Kalekuzoviveve" SalarioIntegral="false" TipoContrato="2" Sueldo="1396147428" CodigoTrabajador="Ceb" />
+    <Pago Forma="1" Metodo="10" />
+    <FechasPagos>
+      <FechaPago>2021-06-01</FechaPago>
+      <FechaPago>2021-06-01</FechaPago>
+    </FechasPagos>
+    <Devengados>
+      <Basico DiasTrabajados="30" SueldoTrabajado="2031506309" />
+    </Devengados>
+    <Deducciones>
+      <Salud Porcentaje="0.00" Deduccion="1568047615" />
+      <FondoPension Porcentaje="0.00" Deduccion="2095190836" />
+      <Libranzas>
+        <Libranza Descripcion="Zesukihowu" Deduccion="333086402" />
+      </Libranzas>
+    </Deducciones>
+    <DevengadosTotal>874883</DevengadosTotal>
+    <DeduccionesTotal>874883</DeduccionesTotal>
+    <ComprobanteTotal>874883</ComprobanteTotal>
+  </Reemplazar>
+  <DATA>
+    <SoftwareProviderID>811026198</SoftwareProviderID>
+    <NombreConfiguracion>NOMINA PRUEBA</NombreConfiguracion>
+    <RutaPDFConfigurada>X:\NumRot\NRA_API\Entrada</RutaPDFConfigurada>
+    <CertificadoFirma>Certificado_VSDC.p12</CertificadoFirma>
+    <CertificadoContrasena>fdfad6a63cKJs</CertificadoContrasena>
+    <IdSoftware>2288922b-2a70-47b0-922e-392478fc13dc</IdSoftware>
+    <PINSoftware>00842</PINSoftware>
+    <ClaimedRole>third party</ClaimedRole>
+    <CodigoPPP>012</CodigoPPP>
+  </DATA>
+</NominaIndividualDeAjuste>

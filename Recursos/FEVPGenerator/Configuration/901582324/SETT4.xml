@@ -23,17 +23,17 @@
   <cbc:CustomizationID>10</cbc:CustomizationID>
   <cbc:ProfileExecutionID>2</cbc:ProfileExecutionID>
   <cbc:ID>SETT4</cbc:ID>
-  <cbc:IssueDate>2023-09-13</cbc:IssueDate>
-  <cbc:IssueTime>09:41:31-05:00</cbc:IssueTime>
+  <cbc:IssueDate>2023-09-14</cbc:IssueDate>
+  <cbc:IssueTime>15:39:15-05:00</cbc:IssueTime>
   <cbc:InvoiceTypeCode>01</cbc:InvoiceTypeCode>
-  <cbc:Note>Dipogama</cbc:Note>
-  <cbc:Note>Ralifoto</cbc:Note>
-  <cbc:Note>Rejedoraguhav</cbc:Note>
-  <cbc:Note>Roseme</cbc:Note>
-  <cbc:Note>Gicedusi</cbc:Note>
-  <cbc:AccountingCostCode listID="Fanevo" listAgencyID="Bomic" listAgencyName="Ginijekas" listName="Wut" listVersionID="Sijasawozafuc" name="Bimezironomipu" languageID="Japoredode" listURI="Guleda" listSchemeURI="Bok">Cogehulilunisu</cbc:AccountingCostCode>
+  <cbc:Note>Covuwu</cbc:Note>
+  <cbc:Note>Curecut</cbc:Note>
+  <cbc:Note>Tuva</cbc:Note>
+  <cbc:Note>Bitiru</cbc:Note>
+  <cbc:Note>Kajuzoha</cbc:Note>
+  <cbc:AccountingCostCode listID="Gih" listAgencyID="Foj" listAgencyName="Rasojegowahut" listName="Tupozak" listVersionID="Mimolapufiz" name="Hocibobegetar" languageID="Vomihuka" listURI="Nanojoz" listSchemeURI="Fowosubegebiji">Cicesujecukuk</cbc:AccountingCostCode>
   <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
-  <cbc:LineCountNumeric>7</cbc:LineCountNumeric>
+  <cbc:LineCountNumeric>6</cbc:LineCountNumeric>
   <cac:AccountingSupplierParty>
     <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
     <cac:Party>
@@ -48,7 +48,7 @@
           <cbc:CountrySubentity>Antioquia</cbc:CountrySubentity>
           <cbc:CountrySubentityCode>05</cbc:CountrySubentityCode>
           <cac:AddressLine>
-            <cbc:Line>Jitumica</cbc:Line>
+            <cbc:Line>Lonoribalelegu</cbc:Line>
           </cac:AddressLine>
           <cac:Country>
             <cbc:IdentificationCode>CO</cbc:IdentificationCode>
@@ -103,92 +103,80 @@
     <cbc:PaymentMeansCode>ZZZ</cbc:PaymentMeansCode>
   </cac:PaymentMeans>
   <cac:LegalMonetaryTotal>
-    <cbc:LineExtensionAmount>7019604470</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount>5710473378</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount>0.00</cbc:TaxExclusiveAmount>
-    <cbc:TaxInclusiveAmount>7019604470.00</cbc:TaxInclusiveAmount>
-    <cbc:PayableAmount>7019604470.00</cbc:PayableAmount>
+    <cbc:TaxInclusiveAmount>5710473378.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount>5710473378.00</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>
     <cbc:ID>1</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1318834708</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">318588349</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Jimefusavebi</cbc:Description>
+      <cbc:Description>Minidisag</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1318834708</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">318588349</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>2</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">227385273</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">449622747</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Jimefusavebi</cbc:Description>
+      <cbc:Description>Minidisag</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">227385273</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">449622747</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>3</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">134071184</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">230344361</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Jimefusavebi</cbc:Description>
+      <cbc:Description>Minidisag</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">134071184</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">230344361</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>4</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1797051372</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">2058456377</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Jimefusavebi</cbc:Description>
+      <cbc:Description>Minidisag</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1797051372</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">2058456377</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>5</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1299844858</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1125969277</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Jimefusavebi</cbc:Description>
+      <cbc:Description>Minidisag</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1299844858</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1125969277</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>6</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">771751257</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1527492267</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Jimefusavebi</cbc:Description>
+      <cbc:Description>Minidisag</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">771751257</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>7</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1470665818</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Jimefusavebi</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1470665818</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1527492267</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
