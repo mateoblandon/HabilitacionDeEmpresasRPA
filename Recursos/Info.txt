@@ -1,6 +1,7 @@
 "INSERT INTO Resoluciones (ObligadoNit,ResolucionNumero,ResolucionFechaInicio,ResolucionFechaFin,ResolucionPrefijo,ResolucionDesde,ResolucionHasta,ResolucionClaveTecnica,ResolucionCertificado,ResolucionCertificadoClave,ResolucionCertificadoVencimiento,ResolucionPINSoftware,ResolucionIdSoftware,ResolucionCodigoPPP,ResolucionSetId) VALUES ('" + 901582324 + "','18760000001','2019-01-19','2030-01-19','SETT','1','5000000','fc8eac422eba16e22ffd8c6f94b3f40a6e38162c','Certificado_VSDC.p12','fdfad6a63cKJ','','00842','d77c215b-c852-4201-99d4-d40010cca32e','012','" + 6e3c6c47-451f-4bbe-acb4-a58ab2c7d166 + "');"
 
-DELETE FROM Resoluciones where ObligadoNit = "901582324";
+DELETE FROM Resoluciones where ObligadoNit = "901740209";
+DELETE FROM Resoluciones where ObligadoNit = "901625453";
 
 | © [09:25:54] Query finished in 0.006 second(s). Rows affected: 1 |
 
@@ -8,11 +9,14 @@ DELETE FROM Resoluciones where ObligadoNit = "901582324";
 "INSERT INTO Resoluciones (ObligadoNit,ResolucionNumero,ResolucionFechaInicio,ResolucionFechaFin,ResolucionPrefijo,ResolucionDesde,ResolucionHasta,ResolucionClaveTecnica,ResolucionCertificado,ResolucionCertificadoClave,ResolucionCertificadoVencimiento,ResolucionPINSoftware,ResolucionIdSoftware,ResolucionCodigoPPP,ResolucionSetId) VALUES ('" + Fila[1].ToString().Trim() + "','9999999997','2019-08-12','2019-08-12','NI','1','9999999999999','','Certificado_VSDC.p12','fdfad6a63cKJ','','00842','2288922b-2a70-47b0-922e-392478fc13dc','012','" + Fila[3].ToString().Trim() + "');" + Environment.NewLine +
 "INSERT INTO Resoluciones (ObligadoNit,ResolucionNumero,ResolucionFechaInicio,ResolucionFechaFin,ResolucionPrefijo,ResolucionDesde,ResolucionHasta,ResolucionClaveTecnica,ResolucionCertificado,ResolucionCertificadoClave,ResolucionCertificadoVencimiento,ResolucionPINSoftware,ResolucionIdSoftware,ResolucionCodigoPPP,ResolucionSetId) VALUES ('" + Fila[1].ToString().Trim() + "','9999999996','2019-08-12','2019-08-12','NIA','1','9999999999999','','Certificado_VSDC.p12','fdfad6a63cKJ','','00842','2288922b-2a70-47b0-922e-392478fc13dc','012','" + Fila[3].ToString().Trim() + "');"
 
+"UPDATE Resoluciones SET ResolucionSetId = '" + "" + "' WHERE ObligadoNit = '" + Fila[1].ToString().Trim() + "';"
 
 TO DO:
-1. En las respuestas por error de estructura enviar csv de ejemplo
-2. Validar nit duplicado
-3. validar cufe duolicados
-4. Validar encabezado.
+1. En las respuestas por error de estructura enviar csv de ejemplo OK
+2. Validar nit duplicado OK
+3. validar setid duplicados OK
+4. Validar encabezado. OK
 5. Validar si es 1 o 2 en la columna de ambiente
-6. Validar que la columna de nit sea sólo numérica
+6. Validar que la columna de nit sea sólo numérica OK
+7. Validar si dígito de verificación es numéricos OK
+8. Validar que DV sea de una sola cifra OK

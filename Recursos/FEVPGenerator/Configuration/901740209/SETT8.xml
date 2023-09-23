@@ -23,17 +23,17 @@
   <cbc:CustomizationID>10</cbc:CustomizationID>
   <cbc:ProfileExecutionID>2</cbc:ProfileExecutionID>
   <cbc:ID>SETT8</cbc:ID>
-  <cbc:IssueDate>2023-09-14</cbc:IssueDate>
-  <cbc:IssueTime>15:39:16-05:00</cbc:IssueTime>
+  <cbc:IssueDate>2023-09-20</cbc:IssueDate>
+  <cbc:IssueTime>11:33:58-05:00</cbc:IssueTime>
   <cbc:InvoiceTypeCode>01</cbc:InvoiceTypeCode>
-  <cbc:Note>Jizikisumi</cbc:Note>
-  <cbc:Note>Gol</cbc:Note>
-  <cbc:Note>Wubogowohohef</cbc:Note>
-  <cbc:Note>Lihewapimara</cbc:Note>
-  <cbc:Note>Habanato</cbc:Note>
-  <cbc:AccountingCostCode listID="Legowudijuface" listAgencyID="Sisinipodo" listAgencyName="Cakutarerabok" listName="Mokokunewig" listVersionID="Musemoliziwo" name="Feli" languageID="Jenomekulofop" listURI="Pohobasosomil" listSchemeURI="Sujikono">Tuboreg</cbc:AccountingCostCode>
+  <cbc:Note>Jemusupoliwal</cbc:Note>
+  <cbc:Note>Zizufijepodeh</cbc:Note>
+  <cbc:Note>Mururogerituv</cbc:Note>
+  <cbc:Note>Diwazazefi</cbc:Note>
+  <cbc:Note>Canoludizabozo</cbc:Note>
+  <cbc:AccountingCostCode listID="Tufafagekemi" listAgencyID="Vawa" listAgencyName="Cadete" listName="Gikimumobido" listVersionID="Pad" name="Kugen" languageID="Fafames" listURI="Rigisazejukajo" listSchemeURI="Natowel">Fuzo</cbc:AccountingCostCode>
   <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
-  <cbc:LineCountNumeric>7</cbc:LineCountNumeric>
+  <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
   <cac:AccountingSupplierParty>
     <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
     <cac:Party>
@@ -48,7 +48,7 @@
           <cbc:CountrySubentity>Antioquia</cbc:CountrySubentity>
           <cbc:CountrySubentityCode>05</cbc:CountrySubentityCode>
           <cac:AddressLine>
-            <cbc:Line>Laca</cbc:Line>
+            <cbc:Line>Fej</cbc:Line>
           </cac:AddressLine>
           <cac:Country>
             <cbc:IdentificationCode>CO</cbc:IdentificationCode>
@@ -103,92 +103,20 @@
     <cbc:PaymentMeansCode>ZZZ</cbc:PaymentMeansCode>
   </cac:PaymentMeans>
   <cac:LegalMonetaryTotal>
-    <cbc:LineExtensionAmount>9421833861</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount>1481209075</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount>0.00</cbc:TaxExclusiveAmount>
-    <cbc:TaxInclusiveAmount>9421833861.00</cbc:TaxInclusiveAmount>
-    <cbc:PayableAmount>9421833861.00</cbc:PayableAmount>
+    <cbc:TaxInclusiveAmount>1481209075.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount>1481209075.00</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>
     <cbc:ID>1</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1011155691</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1481209075</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Jilujutivev</cbc:Description>
+      <cbc:Description>Hinedotokosa</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1011155691</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>2</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1889084711</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Jilujutivev</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1889084711</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>3</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1237641267</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Jilujutivev</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1237641267</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>4</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">826042530</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Jilujutivev</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">826042530</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>5</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1476069852</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Jilujutivev</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1476069852</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>6</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1231319074</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Jilujutivev</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1231319074</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>7</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1750520736</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Jilujutivev</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1750520736</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1481209075</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>

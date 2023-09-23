@@ -23,15 +23,15 @@
   <cbc:CustomizationID>30</cbc:CustomizationID>
   <cbc:ProfileExecutionID>2</cbc:ProfileExecutionID>
   <cbc:ID>ND12</cbc:ID>
-  <cbc:IssueDate>2023-09-14</cbc:IssueDate>
-  <cbc:IssueTime>15:39:16-05:00</cbc:IssueTime>
-  <cbc:Note>Lodesurisoba</cbc:Note>
-  <cbc:Note>Ceg</cbc:Note>
-  <cbc:Note>Cehekopip</cbc:Note>
-  <cbc:Note>Notodivakem</cbc:Note>
-  <cbc:Note>Tagalekicawu</cbc:Note>
+  <cbc:IssueDate>2023-09-20</cbc:IssueDate>
+  <cbc:IssueTime>11:33:58-05:00</cbc:IssueTime>
+  <cbc:Note>Nigudalelopur</cbc:Note>
+  <cbc:Note>Cuweroku</cbc:Note>
+  <cbc:Note>Viwuhi</cbc:Note>
+  <cbc:Note>Muvojiwodateja</cbc:Note>
+  <cbc:Note>Wohaciso</cbc:Note>
   <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
-  <cbc:LineCountNumeric>4</cbc:LineCountNumeric>
+  <cbc:LineCountNumeric>6</cbc:LineCountNumeric>
   <cac:BillingReference>
     <cac:InvoiceDocumentReference>
       <cbc:ID>SETT12</cbc:ID>
@@ -51,7 +51,7 @@
           <cbc:CountrySubentity>Antioquia</cbc:CountrySubentity>
           <cbc:CountrySubentityCode>05</cbc:CountrySubentityCode>
           <cac:AddressLine>
-            <cbc:Line>Ciwib</cbc:Line>
+            <cbc:Line>Hoki</cbc:Line>
           </cac:AddressLine>
           <cac:Country>
             <cbc:IdentificationCode>CO</cbc:IdentificationCode>
@@ -106,56 +106,80 @@
     <cbc:PaymentMeansCode>ZZZ</cbc:PaymentMeansCode>
   </cac:PaymentMeans>
   <cac:RequestedMonetaryTotal>
-    <cbc:LineExtensionAmount>2453208043</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount>5469065959</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount>0.00</cbc:TaxExclusiveAmount>
-    <cbc:TaxInclusiveAmount>2453208043.00</cbc:TaxInclusiveAmount>
-    <cbc:PayableAmount>2453208043.00</cbc:PayableAmount>
+    <cbc:TaxInclusiveAmount>5469065959.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount>5469065959.00</cbc:PayableAmount>
   </cac:RequestedMonetaryTotal>
   <cac:DebitNoteLine>
     <cbc:ID>1</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">264159623</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">44214335</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Bamimefemavig</cbc:Description>
+      <cbc:Description>Seri</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">264159623</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">44214335</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>
   <cac:DebitNoteLine>
     <cbc:ID>2</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1335032478</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">2138194603</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Bamimefemavig</cbc:Description>
+      <cbc:Description>Seri</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1335032478</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">2138194603</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>
   <cac:DebitNoteLine>
     <cbc:ID>3</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">503503964</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">541044200</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Bamimefemavig</cbc:Description>
+      <cbc:Description>Seri</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">503503964</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">541044200</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>
   <cac:DebitNoteLine>
     <cbc:ID>4</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">350511978</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1036301772</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Bamimefemavig</cbc:Description>
+      <cbc:Description>Seri</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">350511978</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1036301772</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:DebitNoteLine>
+  <cac:DebitNoteLine>
+    <cbc:ID>5</cbc:ID>
+    <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
+    <cbc:LineExtensionAmount currencyID="COP">652379059</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>Seri</cbc:Description>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="COP">652379059</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:DebitNoteLine>
+  <cac:DebitNoteLine>
+    <cbc:ID>6</cbc:ID>
+    <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
+    <cbc:LineExtensionAmount currencyID="COP">1056931990</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>Seri</cbc:Description>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="COP">1056931990</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>

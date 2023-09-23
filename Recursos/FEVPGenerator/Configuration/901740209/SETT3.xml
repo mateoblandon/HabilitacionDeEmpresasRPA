@@ -23,17 +23,17 @@
   <cbc:CustomizationID>10</cbc:CustomizationID>
   <cbc:ProfileExecutionID>2</cbc:ProfileExecutionID>
   <cbc:ID>SETT3</cbc:ID>
-  <cbc:IssueDate>2023-09-14</cbc:IssueDate>
-  <cbc:IssueTime>15:39:16-05:00</cbc:IssueTime>
+  <cbc:IssueDate>2023-09-20</cbc:IssueDate>
+  <cbc:IssueTime>11:33:58-05:00</cbc:IssueTime>
   <cbc:InvoiceTypeCode>01</cbc:InvoiceTypeCode>
-  <cbc:Note>Doniroj</cbc:Note>
-  <cbc:Note>Jufuzapepoto</cbc:Note>
-  <cbc:Note>Mefi</cbc:Note>
-  <cbc:Note>Sugocora</cbc:Note>
-  <cbc:Note>Ginokamamoluti</cbc:Note>
-  <cbc:AccountingCostCode listID="Fupejumecuf" listAgencyID="Galipivomosu" listAgencyName="Gitekev" listName="Weket" listVersionID="Gefejakim" name="Litug" languageID="Hokoc" listURI="Pulakaka" listSchemeURI="Wita">Lefeto</cbc:AccountingCostCode>
+  <cbc:Note>Heroveveves</cbc:Note>
+  <cbc:Note>Faguwevoviv</cbc:Note>
+  <cbc:Note>Vuhopuzo</cbc:Note>
+  <cbc:Note>Kotezusa</cbc:Note>
+  <cbc:Note>Gur</cbc:Note>
+  <cbc:AccountingCostCode listID="Covucob" listAgencyID="Vomefik" listAgencyName="Tujegab" listName="Gedupihimomahe" listVersionID="Zapi" name="Genegegacavudu" languageID="Gibuhufukogas" listURI="Gorutanasavun" listSchemeURI="Nadelo">Nivalucinu</cbc:AccountingCostCode>
   <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
-  <cbc:LineCountNumeric>9</cbc:LineCountNumeric>
+  <cbc:LineCountNumeric>7</cbc:LineCountNumeric>
   <cac:AccountingSupplierParty>
     <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
     <cac:Party>
@@ -48,7 +48,7 @@
           <cbc:CountrySubentity>Antioquia</cbc:CountrySubentity>
           <cbc:CountrySubentityCode>05</cbc:CountrySubentityCode>
           <cac:AddressLine>
-            <cbc:Line>Pomele</cbc:Line>
+            <cbc:Line>Dimucupekibu</cbc:Line>
           </cac:AddressLine>
           <cac:Country>
             <cbc:IdentificationCode>CO</cbc:IdentificationCode>
@@ -103,116 +103,92 @@
     <cbc:PaymentMeansCode>ZZZ</cbc:PaymentMeansCode>
   </cac:PaymentMeans>
   <cac:LegalMonetaryTotal>
-    <cbc:LineExtensionAmount>8397550306</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount>8980687795</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount>0.00</cbc:TaxExclusiveAmount>
-    <cbc:TaxInclusiveAmount>8397550306.00</cbc:TaxInclusiveAmount>
-    <cbc:PayableAmount>8397550306.00</cbc:PayableAmount>
+    <cbc:TaxInclusiveAmount>8980687795.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount>8980687795.00</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>
     <cbc:ID>1</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1437860819</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1771163206</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Mod</cbc:Description>
+      <cbc:Description>Giwuz</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1437860819</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1771163206</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>2</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">425248754</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">796041589</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Mod</cbc:Description>
+      <cbc:Description>Giwuz</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">425248754</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">796041589</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>3</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1242241242</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1954465655</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Mod</cbc:Description>
+      <cbc:Description>Giwuz</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1242241242</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1954465655</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>4</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">6263526</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">251470384</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Mod</cbc:Description>
+      <cbc:Description>Giwuz</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">6263526</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">251470384</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>5</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">492998141</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1267178108</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Mod</cbc:Description>
+      <cbc:Description>Giwuz</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">492998141</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1267178108</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>6</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">774270131</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1943965257</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Mod</cbc:Description>
+      <cbc:Description>Giwuz</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">774270131</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1943965257</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>7</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">2112914567</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">996403596</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Mod</cbc:Description>
+      <cbc:Description>Giwuz</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">2112914567</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>8</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">559018736</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Mod</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">559018736</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:InvoiceLine>
-  <cac:InvoiceLine>
-    <cbc:ID>9</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1346734390</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Mod</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1346734390</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">996403596</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>

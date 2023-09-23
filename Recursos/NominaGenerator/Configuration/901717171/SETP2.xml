@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NominaIndividualDeAjuste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" xs:schemaLocation="dian:gov:co:facturaelectronica:NominaIndividualDeAjuste NominaIndividualDeAjusteElectronicaXSD.xsd" SchemaLocation="" xmlns="dian:gov:co:facturaelectronica:NominaIndividualDeAjuste">
+  <ext:UBLExtensions />
+  <TipoNota>1</TipoNota>
+  <Reemplazar>
+    <ReemplazandoPredecesor NumeroPred="SETP1" CUNEPred="4deeed9a05a8305d96df4ca515568d65ff4fc54264e5b7814350ceb0427a8fae6e5b7bb56c2e0170108fe84a7d5de28e" FechaGenPred="2023-09-22" />
+    <Periodo FechaIngreso="2021-06-01" FechaLiquidacionInicio="2021-06-01" FechaLiquidacionFin="2021-07-01" TiempoLaborado="30" FechaGen="2021-07-12" />
+    <NumeroSecuenciaXML CodigoTrabajador="Fehisibi" Prefijo="SETP" Consecutivo="2" Numero="SETP2" />
+    <LugarGeneracionXML Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Idioma="es" />
+    <CodigoQR>https://catalogo-vpfe-hab.dian.gov.co/document/searchqr?documentkey=fc7323b1fd33888ba4c78ee46b9b042f56ed02060bb060c3ceef0538c8c965a50bc224ae883cdd90eba1245ce0a481b9</CodigoQR>
+    <InformacionGeneral Version="V1.0: Documento Soporte de Pago de Nómina Electrónica" Ambiente="2" TipoXML="103" CUNE="fc7323b1fd33888ba4c78ee46b9b042f56ed02060bb060c3ceef0538c8c965a50bc224ae883cdd90eba1245ce0a481b9" EncripCUNE="CUNE-SHA384" FechaGen="2023-09-22" HoraGen="14:30:00-05:00" PeriodoNomina="4" TipoMoneda="COP" />
+    <Notas>Bukejeli</Notas>
+    <Notas>Namoje</Notas>
+    <Notas>Komebanes</Notas>
+    <Notas>Bewotetutocub</Notas>
+    <Notas>Pikepolakonori</Notas>
+    <Notas>Mogilud</Notas>
+    <Notas>Fifeburesufo</Notas>
+    <Empleador RazonSocial="RETAIL PASTELERÍA SANTA ELENA S.A.S." SegundoApellido="Ciz" NIT="901717171" DV="8" Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Direccion="Rafa" />
+    <Trabajador TipoTrabajador="01" SubTipoTrabajador="00" AltoRiesgoPension="true" TipoDocumento="13" NumeroDocumento="1152442015" PrimerApellido="Hillard" SegundoApellido="Toney" PrimerNombre="Lise" OtrosNombres="Hahepa" LugarTrabajoPais="CO" LugarTrabajoDepartamentoEstado="05" LugarTrabajoMunicipioCiudad="05001" LugarTrabajoDireccion="Voliponijunawu" SalarioIntegral="false" TipoContrato="2" Sueldo="1629323961" CodigoTrabajador="Malasudaciz" />
+    <Pago Forma="1" Metodo="10" />
+    <FechasPagos>
+      <FechaPago>2021-06-01</FechaPago>
+      <FechaPago>2021-06-01</FechaPago>
+    </FechasPagos>
+    <Devengados>
+      <Basico DiasTrabajados="30" SueldoTrabajado="1669561321" />
+    </Devengados>
+    <Deducciones>
+      <Salud Porcentaje="0.00" Deduccion="301845262" />
+      <FondoPension Porcentaje="0.00" Deduccion="422056730" />
+      <Libranzas>
+        <Libranza Descripcion="Jitobup" Deduccion="1502442821" />
+        <Libranza Descripcion="Bisasesazi" Deduccion="955063731" />
+      </Libranzas>
+    </Deducciones>
+    <DevengadosTotal>227560</DevengadosTotal>
+    <DeduccionesTotal>227560</DeduccionesTotal>
+    <ComprobanteTotal>227560</ComprobanteTotal>
+  </Reemplazar>
+  <DATA>
+    <SoftwareProviderID>811026198</SoftwareProviderID>
+    <NombreConfiguracion>NOMINA PRUEBA</NombreConfiguracion>
+    <RutaPDFConfigurada>X:\NumRot\NRA_API\Entrada</RutaPDFConfigurada>
+    <CertificadoFirma>Certificado_VSDC.p12</CertificadoFirma>
+    <CertificadoContrasena>fdfad6a63cKJs</CertificadoContrasena>
+    <IdSoftware>2288922b-2a70-47b0-922e-392478fc13dc</IdSoftware>
+    <PINSoftware>00842</PINSoftware>
+    <ClaimedRole>third party</ClaimedRole>
+    <CodigoPPP>012</CodigoPPP>
+  </DATA>
+</NominaIndividualDeAjuste>

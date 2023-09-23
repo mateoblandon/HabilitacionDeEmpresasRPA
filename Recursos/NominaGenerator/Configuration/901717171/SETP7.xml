@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NominaIndividual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" xs:schemaLocation="dian:gov:co:facturaelectronica:NominaIndividual NominaIndividualElectronicaXSD.xsd" SchemaLocation="" xmlns="dian:gov:co:facturaelectronica:NominaIndividual">
+  <ext:UBLExtensions />
+  <Novedad CUNENov="Caref">false</Novedad>
+  <Periodo FechaIngreso="2021-06-01" FechaLiquidacionInicio="2021-06-01" FechaLiquidacionFin="2021-07-01" TiempoLaborado="30" FechaGen="2021-07-12" />
+  <NumeroSecuenciaXML CodigoTrabajador="Mozaleje" Prefijo="SETP" Consecutivo="7" Numero="SETP7" />
+  <LugarGeneracionXML Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Idioma="es" />
+  <CodigoQR>https://catalogo-vpfe-hab.dian.gov.co/document/searchqr?documentkey=c99e83b569e60c2bf22bd4b868c98c6fccefa4012e0f36447886cf3bb649fa3319160997e845a24265e21eb1d4e57ce3</CodigoQR>
+  <InformacionGeneral Version="V1.0: Documento Soporte de Pago de Nómina Electrónica" Ambiente="2" TipoXML="102" CUNE="c99e83b569e60c2bf22bd4b868c98c6fccefa4012e0f36447886cf3bb649fa3319160997e845a24265e21eb1d4e57ce3" EncripCUNE="CUNE-SHA384" FechaGen="2023-09-22" HoraGen="14:30:00-05:00" PeriodoNomina="4" TipoMoneda="COP" />
+  <Notas>Ripu</Notas>
+  <Notas>Mejiwosiw</Notas>
+  <Empleador RazonSocial="RETAIL PASTELERÍA SANTA ELENA S.A.S." SegundoApellido="Romaculi" NIT="901717171" DV="8" Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Direccion="Warabewuwehu" />
+  <Trabajador TipoTrabajador="01" SubTipoTrabajador="00" AltoRiesgoPension="false" TipoDocumento="13" NumeroDocumento="1152442015" PrimerApellido="Khan" SegundoApellido="Goff" PrimerNombre="Vanna" OtrosNombres="Jegidezohifuso" LugarTrabajoPais="CO" LugarTrabajoDepartamentoEstado="05" LugarTrabajoMunicipioCiudad="05001" LugarTrabajoDireccion="Kanapevo" SalarioIntegral="false" TipoContrato="2" Sueldo="389620637" CodigoTrabajador="Jebapu" />
+  <Pago Forma="1" Metodo="10" />
+  <FechasPagos>
+    <FechaPago>2021-06-01</FechaPago>
+  </FechasPagos>
+  <Devengados>
+    <Basico DiasTrabajados="30" SueldoTrabajado="796522054" />
+  </Devengados>
+  <Deducciones>
+    <Salud Porcentaje="0.00" Deduccion="1268396154" />
+    <FondoPension Porcentaje="0.00" Deduccion="536247584" />
+    <Libranzas>
+      <Libranza Descripcion="Pigikasuzez" Deduccion="361126608" />
+      <Libranza Descripcion="Tohujokugaba" Deduccion="306208889" />
+    </Libranzas>
+  </Deducciones>
+  <DevengadosTotal>761254</DevengadosTotal>
+  <DeduccionesTotal>761254</DeduccionesTotal>
+  <ComprobanteTotal>761254</ComprobanteTotal>
+  <DATA>
+    <SoftwareProviderID>811026198</SoftwareProviderID>
+    <NombreConfiguracion>NOMINA PRUEBA</NombreConfiguracion>
+    <RutaPDFConfigurada>X:\NumRot\NRA_API\Entrada</RutaPDFConfigurada>
+    <CertificadoFirma>Certificado_VSDC.p12</CertificadoFirma>
+    <CertificadoContrasena>fdfad6a63cKJs</CertificadoContrasena>
+    <IdSoftware>2288922b-2a70-47b0-922e-392478fc13dc</IdSoftware>
+    <PINSoftware>00842</PINSoftware>
+    <ClaimedRole>third party</ClaimedRole>
+    <CodigoPPP>012</CodigoPPP>
+  </DATA>
+</NominaIndividual>

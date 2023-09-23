@@ -23,15 +23,15 @@
   <cbc:CustomizationID>30</cbc:CustomizationID>
   <cbc:ProfileExecutionID>2</cbc:ProfileExecutionID>
   <cbc:ID>ND5</cbc:ID>
-  <cbc:IssueDate>2023-09-14</cbc:IssueDate>
-  <cbc:IssueTime>15:39:16-05:00</cbc:IssueTime>
-  <cbc:Note>Fovoz</cbc:Note>
-  <cbc:Note>Vuponego</cbc:Note>
-  <cbc:Note>Covif</cbc:Note>
-  <cbc:Note>Vosogof</cbc:Note>
-  <cbc:Note>Haduf</cbc:Note>
+  <cbc:IssueDate>2023-09-20</cbc:IssueDate>
+  <cbc:IssueTime>11:33:58-05:00</cbc:IssueTime>
+  <cbc:Note>Wokewuvec</cbc:Note>
+  <cbc:Note>Rewesonitibur</cbc:Note>
+  <cbc:Note>Bawemotumo</cbc:Note>
+  <cbc:Note>Fapur</cbc:Note>
+  <cbc:Note>Tazofihof</cbc:Note>
   <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
-  <cbc:LineCountNumeric>5</cbc:LineCountNumeric>
+  <cbc:LineCountNumeric>4</cbc:LineCountNumeric>
   <cac:BillingReference>
     <cac:InvoiceDocumentReference>
       <cbc:ID>SETT5</cbc:ID>
@@ -51,7 +51,7 @@
           <cbc:CountrySubentity>Antioquia</cbc:CountrySubentity>
           <cbc:CountrySubentityCode>05</cbc:CountrySubentityCode>
           <cac:AddressLine>
-            <cbc:Line>Zekorudedenus</cbc:Line>
+            <cbc:Line>Cijuwopinuniri</cbc:Line>
           </cac:AddressLine>
           <cac:Country>
             <cbc:IdentificationCode>CO</cbc:IdentificationCode>
@@ -106,68 +106,56 @@
     <cbc:PaymentMeansCode>ZZZ</cbc:PaymentMeansCode>
   </cac:PaymentMeans>
   <cac:RequestedMonetaryTotal>
-    <cbc:LineExtensionAmount>5112338387</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount>4487221853</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount>0.00</cbc:TaxExclusiveAmount>
-    <cbc:TaxInclusiveAmount>5112338387.00</cbc:TaxInclusiveAmount>
-    <cbc:PayableAmount>5112338387.00</cbc:PayableAmount>
+    <cbc:TaxInclusiveAmount>4487221853.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount>4487221853.00</cbc:PayableAmount>
   </cac:RequestedMonetaryTotal>
   <cac:DebitNoteLine>
     <cbc:ID>1</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">733369054</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1157166412</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Mecujac</cbc:Description>
+      <cbc:Description>Gen</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">733369054</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1157166412</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>
   <cac:DebitNoteLine>
     <cbc:ID>2</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">367175116</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1712004687</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Mecujac</cbc:Description>
+      <cbc:Description>Gen</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">367175116</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1712004687</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>
   <cac:DebitNoteLine>
     <cbc:ID>3</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1805427177</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">757952221</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Mecujac</cbc:Description>
+      <cbc:Description>Gen</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1805427177</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">757952221</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>
   <cac:DebitNoteLine>
     <cbc:ID>4</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1035895884</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">860098533</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Mecujac</cbc:Description>
+      <cbc:Description>Gen</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1035895884</cbc:PriceAmount>
-      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
-    </cac:Price>
-  </cac:DebitNoteLine>
-  <cac:DebitNoteLine>
-    <cbc:ID>5</cbc:ID>
-    <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1170471156</cbc:LineExtensionAmount>
-    <cac:Item>
-      <cbc:Description>Mecujac</cbc:Description>
-    </cac:Item>
-    <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1170471156</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">860098533</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>

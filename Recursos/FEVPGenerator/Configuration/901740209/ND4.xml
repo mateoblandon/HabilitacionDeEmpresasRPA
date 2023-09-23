@@ -23,15 +23,15 @@
   <cbc:CustomizationID>30</cbc:CustomizationID>
   <cbc:ProfileExecutionID>2</cbc:ProfileExecutionID>
   <cbc:ID>ND4</cbc:ID>
-  <cbc:IssueDate>2023-09-14</cbc:IssueDate>
-  <cbc:IssueTime>15:39:16-05:00</cbc:IssueTime>
-  <cbc:Note>Nim</cbc:Note>
-  <cbc:Note>Pugulepuze</cbc:Note>
-  <cbc:Note>Jeb</cbc:Note>
-  <cbc:Note>Rapunesafinos</cbc:Note>
-  <cbc:Note>Webij</cbc:Note>
+  <cbc:IssueDate>2023-09-20</cbc:IssueDate>
+  <cbc:IssueTime>11:33:58-05:00</cbc:IssueTime>
+  <cbc:Note>Sewobigi</cbc:Note>
+  <cbc:Note>Nikalekupunot</cbc:Note>
+  <cbc:Note>Wetijut</cbc:Note>
+  <cbc:Note>Pirigapa</cbc:Note>
+  <cbc:Note>Kedot</cbc:Note>
   <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
-  <cbc:LineCountNumeric>7</cbc:LineCountNumeric>
+  <cbc:LineCountNumeric>8</cbc:LineCountNumeric>
   <cac:BillingReference>
     <cac:InvoiceDocumentReference>
       <cbc:ID>SETT4</cbc:ID>
@@ -51,7 +51,7 @@
           <cbc:CountrySubentity>Antioquia</cbc:CountrySubentity>
           <cbc:CountrySubentityCode>05</cbc:CountrySubentityCode>
           <cac:AddressLine>
-            <cbc:Line>Camimitif</cbc:Line>
+            <cbc:Line>Nihilak</cbc:Line>
           </cac:AddressLine>
           <cac:Country>
             <cbc:IdentificationCode>CO</cbc:IdentificationCode>
@@ -106,92 +106,104 @@
     <cbc:PaymentMeansCode>ZZZ</cbc:PaymentMeansCode>
   </cac:PaymentMeans>
   <cac:RequestedMonetaryTotal>
-    <cbc:LineExtensionAmount>6886415434</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount>7236689643</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount>0.00</cbc:TaxExclusiveAmount>
-    <cbc:TaxInclusiveAmount>6886415434.00</cbc:TaxInclusiveAmount>
-    <cbc:PayableAmount>6886415434.00</cbc:PayableAmount>
+    <cbc:TaxInclusiveAmount>7236689643.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount>7236689643.00</cbc:PayableAmount>
   </cac:RequestedMonetaryTotal>
   <cac:DebitNoteLine>
     <cbc:ID>1</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">732018787</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1679819735</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Neben</cbc:Description>
+      <cbc:Description>Sewebowo</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">732018787</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1679819735</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>
   <cac:DebitNoteLine>
     <cbc:ID>2</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">985842207</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">271697803</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Neben</cbc:Description>
+      <cbc:Description>Sewebowo</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">985842207</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">271697803</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>
   <cac:DebitNoteLine>
     <cbc:ID>3</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">279265371</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">529850979</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Neben</cbc:Description>
+      <cbc:Description>Sewebowo</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">279265371</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">529850979</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>
   <cac:DebitNoteLine>
     <cbc:ID>4</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1740496016</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">148621171</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Neben</cbc:Description>
+      <cbc:Description>Sewebowo</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1740496016</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">148621171</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>
   <cac:DebitNoteLine>
     <cbc:ID>5</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">630126734</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1137811307</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Neben</cbc:Description>
+      <cbc:Description>Sewebowo</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">630126734</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1137811307</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>
   <cac:DebitNoteLine>
     <cbc:ID>6</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1754897833</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">270682140</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Neben</cbc:Description>
+      <cbc:Description>Sewebowo</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1754897833</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">270682140</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>
   <cac:DebitNoteLine>
     <cbc:ID>7</cbc:ID>
     <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">763768486</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1339898166</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Neben</cbc:Description>
+      <cbc:Description>Sewebowo</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">763768486</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1339898166</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:DebitNoteLine>
+  <cac:DebitNoteLine>
+    <cbc:ID>8</cbc:ID>
+    <cbc:DebitedQuantity unitCode="94">1.00</cbc:DebitedQuantity>
+    <cbc:LineExtensionAmount currencyID="COP">1858308342</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>Sewebowo</cbc:Description>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="COP">1858308342</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:DebitNoteLine>

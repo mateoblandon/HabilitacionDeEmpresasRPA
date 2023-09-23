@@ -23,17 +23,17 @@
   <cbc:CustomizationID>10</cbc:CustomizationID>
   <cbc:ProfileExecutionID>2</cbc:ProfileExecutionID>
   <cbc:ID>SETT14</cbc:ID>
-  <cbc:IssueDate>2023-09-14</cbc:IssueDate>
-  <cbc:IssueTime>15:39:16-05:00</cbc:IssueTime>
+  <cbc:IssueDate>2023-09-20</cbc:IssueDate>
+  <cbc:IssueTime>11:33:58-05:00</cbc:IssueTime>
   <cbc:InvoiceTypeCode>01</cbc:InvoiceTypeCode>
-  <cbc:Note>Cujikalibabol</cbc:Note>
-  <cbc:Note>Pibuzara</cbc:Note>
-  <cbc:Note>Tadupolobekazi</cbc:Note>
-  <cbc:Note>Fofujijelula</cbc:Note>
-  <cbc:Note>Kokuhudikez</cbc:Note>
-  <cbc:AccountingCostCode listID="Mazokodugipuve" listAgencyID="Jobepa" listAgencyName="Huwod" listName="Jamosisiwatu" listVersionID="Keg" name="Cowilub" languageID="Loc" listURI="Fovokugetu" listSchemeURI="Dasuc">Fasijebig</cbc:AccountingCostCode>
+  <cbc:Note>Jifugurogohe</cbc:Note>
+  <cbc:Note>Met</cbc:Note>
+  <cbc:Note>Kijohobo</cbc:Note>
+  <cbc:Note>Kevojicegi</cbc:Note>
+  <cbc:Note>Mek</cbc:Note>
+  <cbc:AccountingCostCode listID="Saw" listAgencyID="Wufikowipunebe" listAgencyName="Beceku" listName="Pijobug" listVersionID="Wuge" name="Sede" languageID="Kowop" listURI="Pigahus" listSchemeURI="Sodev">Gohoditekacil</cbc:AccountingCostCode>
   <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
-  <cbc:LineCountNumeric>6</cbc:LineCountNumeric>
+  <cbc:LineCountNumeric>7</cbc:LineCountNumeric>
   <cac:AccountingSupplierParty>
     <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
     <cac:Party>
@@ -48,7 +48,7 @@
           <cbc:CountrySubentity>Antioquia</cbc:CountrySubentity>
           <cbc:CountrySubentityCode>05</cbc:CountrySubentityCode>
           <cac:AddressLine>
-            <cbc:Line>Pezeganodowali</cbc:Line>
+            <cbc:Line>Lokikida</cbc:Line>
           </cac:AddressLine>
           <cac:Country>
             <cbc:IdentificationCode>CO</cbc:IdentificationCode>
@@ -103,80 +103,92 @@
     <cbc:PaymentMeansCode>ZZZ</cbc:PaymentMeansCode>
   </cac:PaymentMeans>
   <cac:LegalMonetaryTotal>
-    <cbc:LineExtensionAmount>8653311346</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount>9013105443</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount>0.00</cbc:TaxExclusiveAmount>
-    <cbc:TaxInclusiveAmount>8653311346.00</cbc:TaxInclusiveAmount>
-    <cbc:PayableAmount>8653311346.00</cbc:PayableAmount>
+    <cbc:TaxInclusiveAmount>9013105443.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount>9013105443.00</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>
     <cbc:ID>1</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1775581549</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1802787640</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Faku</cbc:Description>
+      <cbc:Description>Cuzotirufokine</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1775581549</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1802787640</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>2</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1303112814</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1379642211</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Faku</cbc:Description>
+      <cbc:Description>Cuzotirufokine</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1303112814</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1379642211</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>3</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">2039813931</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">125962015</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Faku</cbc:Description>
+      <cbc:Description>Cuzotirufokine</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">2039813931</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">125962015</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>4</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">820815604</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1692678508</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Faku</cbc:Description>
+      <cbc:Description>Cuzotirufokine</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">820815604</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1692678508</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>5</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">789686629</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1992232010</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Faku</cbc:Description>
+      <cbc:Description>Cuzotirufokine</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">789686629</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1992232010</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>
   <cac:InvoiceLine>
     <cbc:ID>6</cbc:ID>
     <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="COP">1924300819</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="COP">1178101358</cbc:LineExtensionAmount>
     <cac:Item>
-      <cbc:Description>Faku</cbc:Description>
+      <cbc:Description>Cuzotirufokine</cbc:Description>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="COP">1924300819</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="COP">1178101358</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>7</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="94">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="COP">841701701</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>Cuzotirufokine</cbc:Description>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="COP">841701701</cbc:PriceAmount>
       <cbc:BaseQuantity unitCode="94">1.00</cbc:BaseQuantity>
     </cac:Price>
   </cac:InvoiceLine>

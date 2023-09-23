@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NominaIndividualDeAjuste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" xs:schemaLocation="dian:gov:co:facturaelectronica:NominaIndividualDeAjuste NominaIndividualDeAjusteElectronicaXSD.xsd" SchemaLocation="" xmlns="dian:gov:co:facturaelectronica:NominaIndividualDeAjuste">
+  <ext:UBLExtensions />
+  <TipoNota>1</TipoNota>
+  <Reemplazar>
+    <ReemplazandoPredecesor NumeroPred="SETP3" CUNEPred="23bcc51605fb6be21967ea60ec9fda3423bbafb44a6cf7c1523e2f9e0e97a96d97919d1c6e9e338bdb31f12315f88da2" FechaGenPred="2023-09-22" />
+    <Periodo FechaIngreso="2021-06-01" FechaLiquidacionInicio="2021-06-01" FechaLiquidacionFin="2021-07-01" TiempoLaborado="30" FechaGen="2021-07-12" />
+    <NumeroSecuenciaXML CodigoTrabajador="Gefozitud" Prefijo="SETP" Consecutivo="4" Numero="SETP4" />
+    <LugarGeneracionXML Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Idioma="es" />
+    <CodigoQR>https://catalogo-vpfe-hab.dian.gov.co/document/searchqr?documentkey=52fb9d2ffbe8323bf255d3791dca3b434f01a0f3d4a28a57e9b00b6b2bef6290a82e45e1c062ac162e2264fcfdbe732b</CodigoQR>
+    <InformacionGeneral Version="V1.0: Documento Soporte de Pago de Nómina Electrónica" Ambiente="2" TipoXML="103" CUNE="52fb9d2ffbe8323bf255d3791dca3b434f01a0f3d4a28a57e9b00b6b2bef6290a82e45e1c062ac162e2264fcfdbe732b" EncripCUNE="CUNE-SHA384" FechaGen="2023-09-22" HoraGen="14:30:00-05:00" PeriodoNomina="4" TipoMoneda="COP" />
+    <Notas>Bomome</Notas>
+    <Notas>Ganibelelilif</Notas>
+    <Notas>Dobirado</Notas>
+    <Notas>Zakopaguc</Notas>
+    <Notas>Fucetuv</Notas>
+    <Notas>Vedokutuvatida</Notas>
+    <Notas>Wifezilaluc</Notas>
+    <Notas>Nejo</Notas>
+    <Notas>Momadukaheva</Notas>
+    <Notas>Tagejizipulawi</Notas>
+    <Empleador RazonSocial="RETAIL PASTELERÍA SANTA ELENA S.A.S." SegundoApellido="Rusukor" NIT="901717171" DV="8" Pais="CO" DepartamentoEstado="05" MunicipioCiudad="05001" Direccion="Sococad" />
+    <Trabajador TipoTrabajador="01" SubTipoTrabajador="00" AltoRiesgoPension="true" TipoDocumento="13" NumeroDocumento="1152442015" PrimerApellido="Tharp" SegundoApellido="Gaskin" PrimerNombre="Avis" OtrosNombres="Vasocubecimo" LugarTrabajoPais="CO" LugarTrabajoDepartamentoEstado="05" LugarTrabajoMunicipioCiudad="05001" LugarTrabajoDireccion="Wed" SalarioIntegral="true" TipoContrato="2" Sueldo="902868603" CodigoTrabajador="Delurolofo" />
+    <Pago Forma="1" Metodo="10" />
+    <FechasPagos>
+      <FechaPago>2021-06-01</FechaPago>
+    </FechasPagos>
+    <Devengados>
+      <Basico DiasTrabajados="30" SueldoTrabajado="1535637341" />
+    </Devengados>
+    <Deducciones>
+      <Salud Porcentaje="0.00" Deduccion="734768780" />
+      <FondoPension Porcentaje="0.00" Deduccion="1588574189" />
+      <Libranzas>
+        <Libranza Descripcion="Cagupek" Deduccion="758735227" />
+        <Libranza Descripcion="Cojefip" Deduccion="2003057211" />
+      </Libranzas>
+    </Deducciones>
+    <DevengadosTotal>526040</DevengadosTotal>
+    <DeduccionesTotal>526040</DeduccionesTotal>
+    <ComprobanteTotal>526040</ComprobanteTotal>
+  </Reemplazar>
+  <DATA>
+    <SoftwareProviderID>811026198</SoftwareProviderID>
+    <NombreConfiguracion>NOMINA PRUEBA</NombreConfiguracion>
+    <RutaPDFConfigurada>X:\NumRot\NRA_API\Entrada</RutaPDFConfigurada>
+    <CertificadoFirma>Certificado_VSDC.p12</CertificadoFirma>
+    <CertificadoContrasena>fdfad6a63cKJs</CertificadoContrasena>
+    <IdSoftware>2288922b-2a70-47b0-922e-392478fc13dc</IdSoftware>
+    <PINSoftware>00842</PINSoftware>
+    <ClaimedRole>third party</ClaimedRole>
+    <CodigoPPP>012</CodigoPPP>
+  </DATA>
+</NominaIndividualDeAjuste>
